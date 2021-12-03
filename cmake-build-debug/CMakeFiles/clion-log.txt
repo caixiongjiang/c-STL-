@@ -1,10 +1,11 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/11.2.0_3/bin/gcc-11 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/11.2.0_3/bin/g++-11 -G Ninja "/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）"
-    -- src/01.cpp will be compiled to bin/01
-    -- src/02.cpp will be compiled to bin/02
-    -- src/03.cpp will be compiled to bin/03
-    -- src/04.cpp will be compiled to bin/04
-    -- src/05.cpp will be compiled to bin/05
-    -- src/06.cpp will be compiled to bin/06
+    -- src/01-01.cpp will be compiled to bin/01-01
+    -- src/01-02.cpp will be compiled to bin/01-02
+    -- src/01-03.cpp will be compiled to bin/01-03
+    -- src/01-04.cpp will be compiled to bin/01-04
+    -- src/01-05.cpp will be compiled to bin/01-05
+    -- src/01-06.cpp will be compiled to bin/01-06
+    -- src/02-01.cpp will be compiled to bin/02-01
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
