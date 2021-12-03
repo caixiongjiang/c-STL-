@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c__STL_",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-01-Debug-e97b1407d14a4253e3ae.json",
+					"name" : "01-01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-02-Debug-f4a2eecc04663db43a69.json",
+					"name" : "01-02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-03-Debug-12864757389d331d558b.json",
+					"name" : "01-03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-04-Debug-87c8fb29ffff5f5b5c3a.json",
+					"name" : "01-04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-05-Debug-6dc116a1e813d90a9921.json",
+					"name" : "01-05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-06-Debug-aa2a60d1c6e6748db532.json",
+					"name" : "01-06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-01-Debug-b6a4ca41b802344e47bf.json",
+					"name" : "02-01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-7f80cc72a3df82921d0c.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-87049384bbc44c9f3c98.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug",
+		"source" : "/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
