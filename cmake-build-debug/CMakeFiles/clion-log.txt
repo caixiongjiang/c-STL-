@@ -6,6 +6,8 @@
     -- src/01-05.cpp will be compiled to bin/01-05
     -- src/01-06.cpp will be compiled to bin/01-06
     -- src/02-01.cpp will be compiled to bin/02-01
+    -- src/02-02.cpp will be compiled to bin/02-02
+    -- src/02-03.cpp will be compiled to bin/02-03
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
