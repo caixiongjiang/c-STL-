@@ -52,6 +52,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 02-06
+
+
+#############################################
+# Order-only phony target for 02-06
+
+build cmake_object_order_depends_target_02-06: phony || CMakeFiles/02-06.dir
+
+build CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o: CXX_COMPILER__02-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/02$ 类模版语法/02-06.cpp || cmake_object_order_depends_target_02-06
+  DEP_FILE = CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-06.dir/02_类模版语法
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-06
+
+
+#############################################
+# Link the executable 02-06
+
+build 02-06: CXX_EXECUTABLE_LINKER__02-06_Debug CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/02-06.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-06
+  TARGET_PDB = 02-06.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01-04
 
 
@@ -217,6 +248,68 @@ build 02-03: CXX_EXECUTABLE_LINKER__02-03_Debug CMakeFiles/02-03.dir/02_类模�
   PRE_LINK = :
   TARGET_FILE = 02-03
   TARGET_PDB = 02-03.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Person
+
+
+#############################################
+# Order-only phony target for Person
+
+build cmake_object_order_depends_target_Person: phony || CMakeFiles/Person.dir
+
+build CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o: CXX_COMPILER__Person_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/02$ 类模版语法/Person.cpp || cmake_object_order_depends_target_Person
+  DEP_FILE = CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Person.dir
+  OBJECT_FILE_DIR = CMakeFiles/Person.dir/02_类模版语法
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Person
+
+
+#############################################
+# Link the executable Person
+
+build Person: CXX_EXECUTABLE_LINKER__Person_Debug CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/Person.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Person
+  TARGET_PDB = Person.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-07
+
+
+#############################################
+# Order-only phony target for 02-07
+
+build cmake_object_order_depends_target_02-07: phony || CMakeFiles/02-07.dir
+
+build CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o: CXX_COMPILER__02-07_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/02$ 类模版语法/02-07.cpp || cmake_object_order_depends_target_02-07
+  DEP_FILE = CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-07.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-07.dir/02_类模版语法
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-07
+
+
+#############################################
+# Link the executable 02-07
+
+build 02-07: CXX_EXECUTABLE_LINKER__02-07_Debug CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/02-07.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-07
+  TARGET_PDB = 02-07.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-02
@@ -477,7 +570,7 @@ build 01-03: CXX_EXECUTABLE_LINKER__01-03_Debug CMakeFiles/01-03.dir/01_函数�
 #############################################
 # Folder: /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug
 
-build all: phony 01-04 02-01 02-05 02-04 02-03 02-02 main 01-02 01-06 CMakeCXXCompilerId 01-01 01-05 01-03
+build all: phony 02-06 01-04 02-01 02-05 02-04 02-03 Person 02-07 02-02 main 01-02 01-06 CMakeCXXCompilerId 01-01 01-05 01-03
 
 # =============================================================================
 # Built-in targets
