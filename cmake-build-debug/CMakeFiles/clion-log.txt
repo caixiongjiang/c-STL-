@@ -12,6 +12,7 @@
     -- src/02-05.cpp will be compiled to bin/02-05
     -- src/02-06.cpp will be compiled to bin/02-06
     -- src/02-07.cpp will be compiled to bin/02-07
+    -- src/02-08.cpp will be compiled to bin/02-08
     -- src/Person.cpp will be compiled to bin/Person
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main

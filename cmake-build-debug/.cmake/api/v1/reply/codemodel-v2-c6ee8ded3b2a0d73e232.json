@@ -30,7 +30,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -60,7 +61,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -155,6 +157,13 @@
 					"id" : "02-07::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02-07-Debug-d04624ccd7f507b83365.json",
 					"name" : "02-07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-08::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-08-Debug-45de1969908f1f000d5e.json",
+					"name" : "02-08",
 					"projectIndex" : 0
 				},
 				{
