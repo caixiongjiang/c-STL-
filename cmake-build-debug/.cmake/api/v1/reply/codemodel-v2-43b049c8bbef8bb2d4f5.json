@@ -41,7 +41,8 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27
 					]
 				}
 			],
@@ -82,7 +83,8 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27
 					]
 				}
 			],
@@ -240,6 +242,13 @@
 					"id" : "03-01-06::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-01-06-Debug-3f7029a8f24c6e52e974.json",
 					"name" : "03-01-06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-01-07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-01-07-Debug-073fe5ef2a9666200d29.json",
+					"name" : "03-01-07",
 					"projectIndex" : 0
 				},
 				{
