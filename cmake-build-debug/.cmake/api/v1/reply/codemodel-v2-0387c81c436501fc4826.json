@@ -192,6 +192,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "03-01-01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-01-01-Debug-005cf20dff61f47cab0e.json",
+					"name" : "03-01-01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "03-02::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-02-Debug-ea7b1bb8e82f006ffa4c.json",
 					"name" : "03-02",
@@ -202,13 +209,6 @@
 					"id" : "03-03::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-03-Debug-f2df1efa4b2872a5d46e.json",
 					"name" : "03-03",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "03-04::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-03-04-Debug-dff743d1c1c9461239a3.json",
-					"name" : "03-04",
 					"projectIndex" : 0
 				},
 				{
