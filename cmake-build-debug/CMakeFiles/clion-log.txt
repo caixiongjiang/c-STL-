@@ -30,6 +30,7 @@
     -- src/03-02-04.cpp will be compiled to bin/03-02-04
     -- src/03-02-05.cpp will be compiled to bin/03-02-05
     -- src/03-02-06.cpp will be compiled to bin/03-02-06
+    -- src/03-02-07.cpp will be compiled to bin/03-02-07
     -- src/03-02.cpp will be compiled to bin/03-02
     -- src/03-03.cpp will be compiled to bin/03-03
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
