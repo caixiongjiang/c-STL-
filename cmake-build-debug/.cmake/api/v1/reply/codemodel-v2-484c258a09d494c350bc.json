@@ -44,7 +44,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -88,7 +89,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -274,6 +276,13 @@
 					"id" : "03-02-01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-02-01-Debug-99cbd0a53cdb7fafbca0.json",
 					"name" : "03-02-01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-02-02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-02-02-Debug-c2876d4a648b59229176.json",
+					"name" : "03-02-02",
 					"projectIndex" : 0
 				},
 				{
