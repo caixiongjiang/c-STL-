@@ -901,6 +901,37 @@ build 02-03: CXX_EXECUTABLE_LINKER__02-03_Debug CMakeFiles/02-03.dir/02_类模�
   TARGET_PDB = 02-03.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 03-02-04
+
+
+#############################################
+# Order-only phony target for 03-02-04
+
+build cmake_object_order_depends_target_03-02-04: phony || CMakeFiles/03-02-04.dir
+
+build CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o: CXX_COMPILER__03-02-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/03$ STL$ 初识/03-02$ vector容器/03-02-04.cpp || cmake_object_order_depends_target_03-02-04
+  DEP_FILE = CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-02-04
+
+
+#############################################
+# Link the executable 03-02-04
+
+build 03-02-04: CXX_EXECUTABLE_LINKER__03-02-04_Debug CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/03-02-04.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-02-04
+  TARGET_PDB = 03-02-04.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Person
 
 
@@ -1066,7 +1097,7 @@ build 01-01: CXX_EXECUTABLE_LINKER__01-01_Debug CMakeFiles/01-01.dir/01_函数�
 #############################################
 # Folder: /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug
 
-build all: phony main CMakeCXXCompilerId 03-03 03-02-03 03-02-01 03-01 03-01-05 03-01-02 03-01-04 02-02 03-01-01 03-02 03-01-08 02-09 02-08 01-02 03-01-06 02-06 01-05 03-01-03 01-04 02-01 02-05 02-04 03-02-02 01-06 02-03 Person 02-07 01-03 03-01-07 01-01
+build all: phony main CMakeCXXCompilerId 03-03 03-02-03 03-02-01 03-01 03-01-05 03-01-02 03-01-04 02-02 03-01-01 03-02 03-01-08 02-09 02-08 01-02 03-01-06 02-06 01-05 03-01-03 01-04 02-01 02-05 02-04 03-02-02 01-06 02-03 03-02-04 Person 02-07 01-03 03-01-07 01-01
 
 # =============================================================================
 # Built-in targets
