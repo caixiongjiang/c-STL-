@@ -53,79 +53,6 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 02-06
-
-
-#############################################
-# Order-only phony target for 02-06
-
-build cmake_object_order_depends_target_02-06: phony || CMakeFiles/02-06.dir
-
-build CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o: CXX_COMPILER__02-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/02$ 类模版语法/02-06.cpp || cmake_object_order_depends_target_02-06
-  DEP_FILE = CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/02-06.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-06.dir/02_类模版语法
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02-06
-
-
-#############################################
-# Link the executable 02-06
-
-build 02-06: CXX_EXECUTABLE_LINKER__02-06_Debug CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
-  OBJECT_DIR = CMakeFiles/02-06.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-06
-  TARGET_PDB = 02-06.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 03-03-04
-
-
-#############################################
-# Order-only phony target for 03-03-04
-
-build cmake_object_order_depends_target_03-03-04: phony || CMakeFiles/03-03-04.dir
-
-build CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o: CXX_COMPILER__03-03-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/03$ STL$ 初识/03-03$ deque容器/03-03-04.cpp || cmake_object_order_depends_target_03-03-04
-  DEP_FILE = CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/03-03-04.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 03-03-04
-
-
-#############################################
-# Link the executable 03-03-04
-
-build 03-03-04: CXX_EXECUTABLE_LINKER__03-03-04_Debug CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
-  OBJECT_DIR = CMakeFiles/03-03-04.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-03-04
-  TARGET_PDB = 03-03-04.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-# =============================================================================
 # Object build statements for EXECUTABLE target main
 
 
@@ -310,6 +237,37 @@ build 03-06-01: CXX_EXECUTABLE_LINKER__03-06-01_Debug CMakeFiles/03-06-01.dir/03
   PRE_LINK = :
   TARGET_FILE = 03-06-01
   TARGET_PDB = 03-06-01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-07-02
+
+
+#############################################
+# Order-only phony target for 03-07-02
+
+build cmake_object_order_depends_target_03-07-02: phony || CMakeFiles/03-07-02.dir
+
+build CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o: CXX_COMPILER__03-07-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/03$ STL$ 初识/03-07$ list容器/03-07-02.cpp || cmake_object_order_depends_target_03-07-02
+  DEP_FILE = CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-07-02
+
+
+#############################################
+# Link the executable 03-07-02
+
+build 03-07-02: CXX_EXECUTABLE_LINKER__03-07-02_Debug CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/03-07-02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-07-02
+  TARGET_PDB = 03-07-02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-02-04
@@ -1055,6 +1013,79 @@ build 03-01-08: CXX_EXECUTABLE_LINKER__03-01-08_Debug CMakeFiles/03-01-08.dir/03
   TARGET_FILE = 03-01-08
   TARGET_PDB = 03-01-08.dbg
 
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-06
+
+
+#############################################
+# Order-only phony target for 02-06
+
+build cmake_object_order_depends_target_02-06: phony || CMakeFiles/02-06.dir
+
+build CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o: CXX_COMPILER__02-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/02$ 类模版语法/02-06.cpp || cmake_object_order_depends_target_02-06
+  DEP_FILE = CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-06.dir/02_类模版语法
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-06
+
+
+#############################################
+# Link the executable 02-06
+
+build 02-06: CXX_EXECUTABLE_LINKER__02-06_Debug CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/02-06.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-06
+  TARGET_PDB = 02-06.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-03-04
+
+
+#############################################
+# Order-only phony target for 03-03-04
+
+build cmake_object_order_depends_target_03-03-04: phony || CMakeFiles/03-03-04.dir
+
+build CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o: CXX_COMPILER__03-03-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/03$ STL$ 初识/03-03$ deque容器/03-03-04.cpp || cmake_object_order_depends_target_03-03-04
+  DEP_FILE = CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-03-04
+
+
+#############################################
+# Link the executable 03-03-04
+
+build 03-03-04: CXX_EXECUTABLE_LINKER__03-03-04_Debug CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/03-03-04.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-03-04
+  TARGET_PDB = 03-03-04.dbg
+
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-08
 
@@ -1500,7 +1531,7 @@ build 03-01-07: CXX_EXECUTABLE_LINKER__03-01-07_Debug CMakeFiles/03-01-07.dir/03
 #############################################
 # Folder: /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug
 
-build all: phony 02-06 03-03-04 main 03-03-01 CMakeCXXCompilerId 03-02-05 03-07-01 03-06-01 03-02-04 03-03 03-03-06 01-03 03-03-03 02-05 03-01-06 03-05-01 03-03-02 03-02-07 03-02-06 02-09 03-01-02 03-03-05 03-01-03 03-02-03 03-02-01 03-01-04 03-01 03-01-05 02-02 03-01-01 03-02 03-01-08 02-08 03-04-01 01-02 01-05 01-04 02-01 02-04 01-01 03-02-02 01-06 02-03 Person 02-07 03-01-07
+build all: phony main 03-03-01 CMakeCXXCompilerId 03-02-05 03-07-01 03-06-01 03-07-02 03-02-04 03-03 03-03-06 01-03 03-03-03 02-05 03-01-06 03-05-01 03-03-02 03-02-07 03-02-06 02-09 03-01-02 03-03-05 03-01-03 03-02-03 03-02-01 03-01-04 03-01 03-01-05 02-02 03-01-01 03-02 03-01-08 02-06 03-03-04 02-08 03-04-01 01-02 01-05 01-04 02-01 02-04 01-01 03-02-02 01-06 02-03 Person 02-07 03-01-07
 
 # =============================================================================
 # Built-in targets
