@@ -60,6 +60,7 @@
     -- src/03-09-01.cpp will be compiled to bin/03-09-01
     -- src/03-09-02.cpp will be compiled to bin/03-09-02
     -- src/03-09-03.cpp will be compiled to bin/03-09-03
+    -- src/03-09-04.cpp will be compiled to bin/03-09-04
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
