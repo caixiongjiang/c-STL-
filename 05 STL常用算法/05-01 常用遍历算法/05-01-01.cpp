@@ -6,7 +6,7 @@ using namespace std;
 #include <vector>
 #include <algorithm>
 
-//常用遍历算法
+//常用遍历算法 for_each
 
 //普通函数
 void print01(int val)
