@@ -104,7 +104,8 @@
 						86,
 						87,
 						88,
-						89
+						89,
+						90
 					]
 				}
 			],
@@ -208,7 +209,8 @@
 						86,
 						87,
 						88,
-						89
+						89,
+						90
 					]
 				}
 			],
@@ -821,6 +823,13 @@
 					"id" : "05-05-02::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-05-05-02-Debug-4e8f6830005fb0c80e56.json",
 					"name" : "05-05-02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05-06-01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-06-01-Debug-2be5a51cca37430db34c.json",
+					"name" : "05-06-01",
 					"projectIndex" : 0
 				},
 				{

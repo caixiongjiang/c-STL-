@@ -20,6 +20,13 @@ void test01()
     });
     //100 100 100 100 100 100 100 100 100 100
     cout << endl;
+
+    fill(v.begin(), v.end(), 200);
+    for_each(v.begin(), v.end(), [&](const int &val){
+        cout << val << " ";
+    });
+    //200 200 200 200 200 200 200 200 200 200
+    cout << endl;
 }
 
 int main()
