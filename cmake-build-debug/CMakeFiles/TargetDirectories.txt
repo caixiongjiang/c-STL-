@@ -1,5 +1,6 @@
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/main.dir
+/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/speech.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/05-05-01.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/05-04-04.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/05-04-02.dir
@@ -31,6 +32,7 @@
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/03-08-05.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/03-02-05.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/03-07-01.dir
+/Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/speechManager.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/03-06-01.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/03-07-02.dir
 /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug/CMakeFiles/03-02-04.dir

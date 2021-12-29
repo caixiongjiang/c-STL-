@@ -67,6 +67,12 @@ build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/jarsonsmac
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir
 
+build CMakeFiles/main.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__main_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -75,13 +81,50 @@ build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/jarsonsmac
 #############################################
 # Link the executable main
 
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/main.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = main
   TARGET_PDB = main.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target speech
+
+
+#############################################
+# Order-only phony target for speech
+
+build cmake_object_order_depends_target_speech: phony || CMakeFiles/speech.dir
+
+build CMakeFiles/speech.dir/06_案例—speechManager/speech.cpp.o: CXX_COMPILER__speech_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speech.cpp || cmake_object_order_depends_target_speech
+  DEP_FILE = CMakeFiles/speech.dir/06_案例—speechManager/speech.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/speech.dir
+  OBJECT_FILE_DIR = CMakeFiles/speech.dir/06_案例—speechManager
+
+build CMakeFiles/speech.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__speech_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_speech
+  DEP_FILE = CMakeFiles/speech.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/speech.dir
+  OBJECT_FILE_DIR = CMakeFiles/speech.dir/06_案例—speechManager
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target speech
+
+
+#############################################
+# Link the executable speech
+
+build speech: CXX_EXECUTABLE_LINKER__speech_Debug CMakeFiles/speech.dir/06_案例—speechManager/speech.cpp.o CMakeFiles/speech.dir/06_案例—speechManager/speechManager.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/speech.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = speech
+  TARGET_PDB = speech.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 05-05-01
@@ -98,6 +141,12 @@ build CMakeFiles/05-05-01.dir/05_STL常用算法/05-05_常用算术生成算法/
   OBJECT_DIR = CMakeFiles/05-05-01.dir
   OBJECT_FILE_DIR = CMakeFiles/05-05-01.dir/05_STL常用算法/05-05_常用算术生成算法
 
+build CMakeFiles/05-05-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-05-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-05-01
+  DEP_FILE = CMakeFiles/05-05-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-05-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-05-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-05-01
@@ -106,7 +155,7 @@ build CMakeFiles/05-05-01.dir/05_STL常用算法/05-05_常用算术生成算法/
 #############################################
 # Link the executable 05-05-01
 
-build 05-05-01: CXX_EXECUTABLE_LINKER__05-05-01_Debug CMakeFiles/05-05-01.dir/05_STL常用算法/05-05_常用算术生成算法/05-05-01.cpp.o
+build 05-05-01: CXX_EXECUTABLE_LINKER__05-05-01_Debug CMakeFiles/05-05-01.dir/05_STL常用算法/05-05_常用算术生成算法/05-05-01.cpp.o CMakeFiles/05-05-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-05-01.dir
   POST_BUILD = :
@@ -129,6 +178,12 @@ build CMakeFiles/05-04-04.dir/05_STL常用算法/05-04_常用拷贝和替换算�
   OBJECT_DIR = CMakeFiles/05-04-04.dir
   OBJECT_FILE_DIR = CMakeFiles/05-04-04.dir/05_STL常用算法/05-04_常用拷贝和替换算法
 
+build CMakeFiles/05-04-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-04-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-04-04
+  DEP_FILE = CMakeFiles/05-04-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-04-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-04-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-04-04
@@ -137,7 +192,7 @@ build CMakeFiles/05-04-04.dir/05_STL常用算法/05-04_常用拷贝和替换算�
 #############################################
 # Link the executable 05-04-04
 
-build 05-04-04: CXX_EXECUTABLE_LINKER__05-04-04_Debug CMakeFiles/05-04-04.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-04.cpp.o
+build 05-04-04: CXX_EXECUTABLE_LINKER__05-04-04_Debug CMakeFiles/05-04-04.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-04.cpp.o CMakeFiles/05-04-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-04-04.dir
   POST_BUILD = :
@@ -160,6 +215,12 @@ build CMakeFiles/05-04-02.dir/05_STL常用算法/05-04_常用拷贝和替换算�
   OBJECT_DIR = CMakeFiles/05-04-02.dir
   OBJECT_FILE_DIR = CMakeFiles/05-04-02.dir/05_STL常用算法/05-04_常用拷贝和替换算法
 
+build CMakeFiles/05-04-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-04-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-04-02
+  DEP_FILE = CMakeFiles/05-04-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-04-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-04-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-04-02
@@ -168,7 +229,7 @@ build CMakeFiles/05-04-02.dir/05_STL常用算法/05-04_常用拷贝和替换算�
 #############################################
 # Link the executable 05-04-02
 
-build 05-04-02: CXX_EXECUTABLE_LINKER__05-04-02_Debug CMakeFiles/05-04-02.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-02.cpp.o
+build 05-04-02: CXX_EXECUTABLE_LINKER__05-04-02_Debug CMakeFiles/05-04-02.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-02.cpp.o CMakeFiles/05-04-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-04-02.dir
   POST_BUILD = :
@@ -191,6 +252,12 @@ build CMakeFiles/05-04-01.dir/05_STL常用算法/05-04_常用拷贝和替换算�
   OBJECT_DIR = CMakeFiles/05-04-01.dir
   OBJECT_FILE_DIR = CMakeFiles/05-04-01.dir/05_STL常用算法/05-04_常用拷贝和替换算法
 
+build CMakeFiles/05-04-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-04-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-04-01
+  DEP_FILE = CMakeFiles/05-04-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-04-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-04-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-04-01
@@ -199,7 +266,7 @@ build CMakeFiles/05-04-01.dir/05_STL常用算法/05-04_常用拷贝和替换算�
 #############################################
 # Link the executable 05-04-01
 
-build 05-04-01: CXX_EXECUTABLE_LINKER__05-04-01_Debug CMakeFiles/05-04-01.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-01.cpp.o
+build 05-04-01: CXX_EXECUTABLE_LINKER__05-04-01_Debug CMakeFiles/05-04-01.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-01.cpp.o CMakeFiles/05-04-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-04-01.dir
   POST_BUILD = :
@@ -222,6 +289,12 @@ build CMakeFiles/05-03-04.dir/05_STL常用算法/05-03_常用的排序算法/05-
   OBJECT_DIR = CMakeFiles/05-03-04.dir
   OBJECT_FILE_DIR = CMakeFiles/05-03-04.dir/05_STL常用算法/05-03_常用的排序算法
 
+build CMakeFiles/05-03-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-03-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-03-04
+  DEP_FILE = CMakeFiles/05-03-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-03-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-03-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-03-04
@@ -230,7 +303,7 @@ build CMakeFiles/05-03-04.dir/05_STL常用算法/05-03_常用的排序算法/05-
 #############################################
 # Link the executable 05-03-04
 
-build 05-03-04: CXX_EXECUTABLE_LINKER__05-03-04_Debug CMakeFiles/05-03-04.dir/05_STL常用算法/05-03_常用的排序算法/05-03-04.cpp.o
+build 05-03-04: CXX_EXECUTABLE_LINKER__05-03-04_Debug CMakeFiles/05-03-04.dir/05_STL常用算法/05-03_常用的排序算法/05-03-04.cpp.o CMakeFiles/05-03-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-03-04.dir
   POST_BUILD = :
@@ -253,6 +326,12 @@ build CMakeFiles/05-03-01.dir/05_STL常用算法/05-03_常用的排序算法/05-
   OBJECT_DIR = CMakeFiles/05-03-01.dir
   OBJECT_FILE_DIR = CMakeFiles/05-03-01.dir/05_STL常用算法/05-03_常用的排序算法
 
+build CMakeFiles/05-03-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-03-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-03-01
+  DEP_FILE = CMakeFiles/05-03-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-03-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-03-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-03-01
@@ -261,7 +340,7 @@ build CMakeFiles/05-03-01.dir/05_STL常用算法/05-03_常用的排序算法/05-
 #############################################
 # Link the executable 05-03-01
 
-build 05-03-01: CXX_EXECUTABLE_LINKER__05-03-01_Debug CMakeFiles/05-03-01.dir/05_STL常用算法/05-03_常用的排序算法/05-03-01.cpp.o
+build 05-03-01: CXX_EXECUTABLE_LINKER__05-03-01_Debug CMakeFiles/05-03-01.dir/05_STL常用算法/05-03_常用的排序算法/05-03-01.cpp.o CMakeFiles/05-03-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-03-01.dir
   POST_BUILD = :
@@ -284,6 +363,12 @@ build CMakeFiles/05-02-04.dir/05_STL常用算法/05-02_常用的查找算法/05-
   OBJECT_DIR = CMakeFiles/05-02-04.dir
   OBJECT_FILE_DIR = CMakeFiles/05-02-04.dir/05_STL常用算法/05-02_常用的查找算法
 
+build CMakeFiles/05-02-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-02-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-02-04
+  DEP_FILE = CMakeFiles/05-02-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-02-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-02-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-02-04
@@ -292,7 +377,7 @@ build CMakeFiles/05-02-04.dir/05_STL常用算法/05-02_常用的查找算法/05-
 #############################################
 # Link the executable 05-02-04
 
-build 05-02-04: CXX_EXECUTABLE_LINKER__05-02-04_Debug CMakeFiles/05-02-04.dir/05_STL常用算法/05-02_常用的查找算法/05-02-04.cpp.o
+build 05-02-04: CXX_EXECUTABLE_LINKER__05-02-04_Debug CMakeFiles/05-02-04.dir/05_STL常用算法/05-02_常用的查找算法/05-02-04.cpp.o CMakeFiles/05-02-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-02-04.dir
   POST_BUILD = :
@@ -315,6 +400,12 @@ build CMakeFiles/05-02-03.dir/05_STL常用算法/05-02_常用的查找算法/05-
   OBJECT_DIR = CMakeFiles/05-02-03.dir
   OBJECT_FILE_DIR = CMakeFiles/05-02-03.dir/05_STL常用算法/05-02_常用的查找算法
 
+build CMakeFiles/05-02-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-02-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-02-03
+  DEP_FILE = CMakeFiles/05-02-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-02-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-02-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-02-03
@@ -323,7 +414,7 @@ build CMakeFiles/05-02-03.dir/05_STL常用算法/05-02_常用的查找算法/05-
 #############################################
 # Link the executable 05-02-03
 
-build 05-02-03: CXX_EXECUTABLE_LINKER__05-02-03_Debug CMakeFiles/05-02-03.dir/05_STL常用算法/05-02_常用的查找算法/05-02-03.cpp.o
+build 05-02-03: CXX_EXECUTABLE_LINKER__05-02-03_Debug CMakeFiles/05-02-03.dir/05_STL常用算法/05-02_常用的查找算法/05-02-03.cpp.o CMakeFiles/05-02-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-02-03.dir
   POST_BUILD = :
@@ -346,6 +437,12 @@ build CMakeFiles/05-02-01.dir/05_STL常用算法/05-02_常用的查找算法/05-
   OBJECT_DIR = CMakeFiles/05-02-01.dir
   OBJECT_FILE_DIR = CMakeFiles/05-02-01.dir/05_STL常用算法/05-02_常用的查找算法
 
+build CMakeFiles/05-02-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-02-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-02-01
+  DEP_FILE = CMakeFiles/05-02-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-02-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-02-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-02-01
@@ -354,7 +451,7 @@ build CMakeFiles/05-02-01.dir/05_STL常用算法/05-02_常用的查找算法/05-
 #############################################
 # Link the executable 05-02-01
 
-build 05-02-01: CXX_EXECUTABLE_LINKER__05-02-01_Debug CMakeFiles/05-02-01.dir/05_STL常用算法/05-02_常用的查找算法/05-02-01.cpp.o
+build 05-02-01: CXX_EXECUTABLE_LINKER__05-02-01_Debug CMakeFiles/05-02-01.dir/05_STL常用算法/05-02_常用的查找算法/05-02-01.cpp.o CMakeFiles/05-02-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-02-01.dir
   POST_BUILD = :
@@ -377,6 +474,12 @@ build CMakeFiles/04-03-03.dir/04_STL_-函数对象/04-03_内建函数对象/04-0
   OBJECT_DIR = CMakeFiles/04-03-03.dir
   OBJECT_FILE_DIR = CMakeFiles/04-03-03.dir/04_STL_-函数对象/04-03_内建函数对象
 
+build CMakeFiles/04-03-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__04-03-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_04-03-03
+  DEP_FILE = CMakeFiles/04-03-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/04-03-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-03-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04-03-03
@@ -385,7 +488,7 @@ build CMakeFiles/04-03-03.dir/04_STL_-函数对象/04-03_内建函数对象/04-0
 #############################################
 # Link the executable 04-03-03
 
-build 04-03-03: CXX_EXECUTABLE_LINKER__04-03-03_Debug CMakeFiles/04-03-03.dir/04_STL_-函数对象/04-03_内建函数对象/04-03-03.cpp.o
+build 04-03-03: CXX_EXECUTABLE_LINKER__04-03-03_Debug CMakeFiles/04-03-03.dir/04_STL_-函数对象/04-03_内建函数对象/04-03-03.cpp.o CMakeFiles/04-03-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/04-03-03.dir
   POST_BUILD = :
@@ -408,6 +511,12 @@ build CMakeFiles/05-03-02.dir/05_STL常用算法/05-03_常用的排序算法/05-
   OBJECT_DIR = CMakeFiles/05-03-02.dir
   OBJECT_FILE_DIR = CMakeFiles/05-03-02.dir/05_STL常用算法/05-03_常用的排序算法
 
+build CMakeFiles/05-03-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-03-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-03-02
+  DEP_FILE = CMakeFiles/05-03-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-03-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-03-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-03-02
@@ -416,7 +525,7 @@ build CMakeFiles/05-03-02.dir/05_STL常用算法/05-03_常用的排序算法/05-
 #############################################
 # Link the executable 05-03-02
 
-build 05-03-02: CXX_EXECUTABLE_LINKER__05-03-02_Debug CMakeFiles/05-03-02.dir/05_STL常用算法/05-03_常用的排序算法/05-03-02.cpp.o
+build 05-03-02: CXX_EXECUTABLE_LINKER__05-03-02_Debug CMakeFiles/05-03-02.dir/05_STL常用算法/05-03_常用的排序算法/05-03-02.cpp.o CMakeFiles/05-03-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-03-02.dir
   POST_BUILD = :
@@ -439,6 +548,12 @@ build CMakeFiles/04-03-02.dir/04_STL_-函数对象/04-03_内建函数对象/04-0
   OBJECT_DIR = CMakeFiles/04-03-02.dir
   OBJECT_FILE_DIR = CMakeFiles/04-03-02.dir/04_STL_-函数对象/04-03_内建函数对象
 
+build CMakeFiles/04-03-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__04-03-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_04-03-02
+  DEP_FILE = CMakeFiles/04-03-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/04-03-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-03-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04-03-02
@@ -447,7 +562,7 @@ build CMakeFiles/04-03-02.dir/04_STL_-函数对象/04-03_内建函数对象/04-0
 #############################################
 # Link the executable 04-03-02
 
-build 04-03-02: CXX_EXECUTABLE_LINKER__04-03-02_Debug CMakeFiles/04-03-02.dir/04_STL_-函数对象/04-03_内建函数对象/04-03-02.cpp.o
+build 04-03-02: CXX_EXECUTABLE_LINKER__04-03-02_Debug CMakeFiles/04-03-02.dir/04_STL_-函数对象/04-03_内建函数对象/04-03-02.cpp.o CMakeFiles/04-03-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/04-03-02.dir
   POST_BUILD = :
@@ -470,6 +585,12 @@ build CMakeFiles/04-02-02.dir/04_STL_-函数对象/04-02_谓词/04-02-02.cpp.o: 
   OBJECT_DIR = CMakeFiles/04-02-02.dir
   OBJECT_FILE_DIR = CMakeFiles/04-02-02.dir/04_STL_-函数对象/04-02_谓词
 
+build CMakeFiles/04-02-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__04-02-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_04-02-02
+  DEP_FILE = CMakeFiles/04-02-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/04-02-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-02-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04-02-02
@@ -478,7 +599,7 @@ build CMakeFiles/04-02-02.dir/04_STL_-函数对象/04-02_谓词/04-02-02.cpp.o: 
 #############################################
 # Link the executable 04-02-02
 
-build 04-02-02: CXX_EXECUTABLE_LINKER__04-02-02_Debug CMakeFiles/04-02-02.dir/04_STL_-函数对象/04-02_谓词/04-02-02.cpp.o
+build 04-02-02: CXX_EXECUTABLE_LINKER__04-02-02_Debug CMakeFiles/04-02-02.dir/04_STL_-函数对象/04-02_谓词/04-02-02.cpp.o CMakeFiles/04-02-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/04-02-02.dir
   POST_BUILD = :
@@ -501,6 +622,12 @@ build CMakeFiles/04-02-01.dir/04_STL_-函数对象/04-02_谓词/04-02-01.cpp.o: 
   OBJECT_DIR = CMakeFiles/04-02-01.dir
   OBJECT_FILE_DIR = CMakeFiles/04-02-01.dir/04_STL_-函数对象/04-02_谓词
 
+build CMakeFiles/04-02-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__04-02-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_04-02-01
+  DEP_FILE = CMakeFiles/04-02-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/04-02-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-02-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04-02-01
@@ -509,7 +636,7 @@ build CMakeFiles/04-02-01.dir/04_STL_-函数对象/04-02_谓词/04-02-01.cpp.o: 
 #############################################
 # Link the executable 04-02-01
 
-build 04-02-01: CXX_EXECUTABLE_LINKER__04-02-01_Debug CMakeFiles/04-02-01.dir/04_STL_-函数对象/04-02_谓词/04-02-01.cpp.o
+build 04-02-01: CXX_EXECUTABLE_LINKER__04-02-01_Debug CMakeFiles/04-02-01.dir/04_STL_-函数对象/04-02_谓词/04-02-01.cpp.o CMakeFiles/04-02-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/04-02-01.dir
   POST_BUILD = :
@@ -532,6 +659,12 @@ build CMakeFiles/04-01-01.dir/04_STL_-函数对象/04-01_函数对象/04-01-01.c
   OBJECT_DIR = CMakeFiles/04-01-01.dir
   OBJECT_FILE_DIR = CMakeFiles/04-01-01.dir/04_STL_-函数对象/04-01_函数对象
 
+build CMakeFiles/04-01-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__04-01-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_04-01-01
+  DEP_FILE = CMakeFiles/04-01-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/04-01-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-01-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04-01-01
@@ -540,7 +673,7 @@ build CMakeFiles/04-01-01.dir/04_STL_-函数对象/04-01_函数对象/04-01-01.c
 #############################################
 # Link the executable 04-01-01
 
-build 04-01-01: CXX_EXECUTABLE_LINKER__04-01-01_Debug CMakeFiles/04-01-01.dir/04_STL_-函数对象/04-01_函数对象/04-01-01.cpp.o
+build 04-01-01: CXX_EXECUTABLE_LINKER__04-01-01_Debug CMakeFiles/04-01-01.dir/04_STL_-函数对象/04-01_函数对象/04-01-01.cpp.o CMakeFiles/04-01-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/04-01-01.dir
   POST_BUILD = :
@@ -563,6 +696,12 @@ build CMakeFiles/03-09-05.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-05
   OBJECT_DIR = CMakeFiles/03-09-05.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-09-05.dir/03_STL_初识/03-09_map_&&_multimap容器"
 
+build CMakeFiles/03-09-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-09-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-09-05
+  DEP_FILE = CMakeFiles/03-09-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-09-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-09-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-09-05
@@ -571,7 +710,7 @@ build CMakeFiles/03-09-05.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-05
 #############################################
 # Link the executable 03-09-05
 
-build 03-09-05: CXX_EXECUTABLE_LINKER__03-09-05_Debug CMakeFiles/03-09-05.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-05.cpp.o
+build 03-09-05: CXX_EXECUTABLE_LINKER__03-09-05_Debug CMakeFiles/03-09-05.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-05.cpp.o CMakeFiles/03-09-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-09-05.dir
   POST_BUILD = :
@@ -594,6 +733,12 @@ build CMakeFiles/03-09-04.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-04
   OBJECT_DIR = CMakeFiles/03-09-04.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-09-04.dir/03_STL_初识/03-09_map_&&_multimap容器"
 
+build CMakeFiles/03-09-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-09-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-09-04
+  DEP_FILE = CMakeFiles/03-09-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-09-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-09-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-09-04
@@ -602,7 +747,7 @@ build CMakeFiles/03-09-04.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-04
 #############################################
 # Link the executable 03-09-04
 
-build 03-09-04: CXX_EXECUTABLE_LINKER__03-09-04_Debug CMakeFiles/03-09-04.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-04.cpp.o
+build 03-09-04: CXX_EXECUTABLE_LINKER__03-09-04_Debug CMakeFiles/03-09-04.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-04.cpp.o CMakeFiles/03-09-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-09-04.dir
   POST_BUILD = :
@@ -625,6 +770,12 @@ build CMakeFiles/05-04-03.dir/05_STL常用算法/05-04_常用拷贝和替换算�
   OBJECT_DIR = CMakeFiles/05-04-03.dir
   OBJECT_FILE_DIR = CMakeFiles/05-04-03.dir/05_STL常用算法/05-04_常用拷贝和替换算法
 
+build CMakeFiles/05-04-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-04-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-04-03
+  DEP_FILE = CMakeFiles/05-04-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-04-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-04-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-04-03
@@ -633,7 +784,7 @@ build CMakeFiles/05-04-03.dir/05_STL常用算法/05-04_常用拷贝和替换算�
 #############################################
 # Link the executable 05-04-03
 
-build 05-04-03: CXX_EXECUTABLE_LINKER__05-04-03_Debug CMakeFiles/05-04-03.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-03.cpp.o
+build 05-04-03: CXX_EXECUTABLE_LINKER__05-04-03_Debug CMakeFiles/05-04-03.dir/05_STL常用算法/05-04_常用拷贝和替换算法/05-04-03.cpp.o CMakeFiles/05-04-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-04-03.dir
   POST_BUILD = :
@@ -656,6 +807,12 @@ build CMakeFiles/03-09-03.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-03
   OBJECT_DIR = CMakeFiles/03-09-03.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-09-03.dir/03_STL_初识/03-09_map_&&_multimap容器"
 
+build CMakeFiles/03-09-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-09-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-09-03
+  DEP_FILE = CMakeFiles/03-09-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-09-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-09-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-09-03
@@ -664,7 +821,7 @@ build CMakeFiles/03-09-03.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-03
 #############################################
 # Link the executable 03-09-03
 
-build 03-09-03: CXX_EXECUTABLE_LINKER__03-09-03_Debug CMakeFiles/03-09-03.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-03.cpp.o
+build 03-09-03: CXX_EXECUTABLE_LINKER__03-09-03_Debug CMakeFiles/03-09-03.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-03.cpp.o CMakeFiles/03-09-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-09-03.dir
   POST_BUILD = :
@@ -687,6 +844,12 @@ build CMakeFiles/03-08-08.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-08.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-08.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-08.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-08_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-08
+  DEP_FILE = CMakeFiles/03-08-08.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-08.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-08.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-08
@@ -695,7 +858,7 @@ build CMakeFiles/03-08-08.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-08
 
-build 03-08-08: CXX_EXECUTABLE_LINKER__03-08-08_Debug CMakeFiles/03-08-08.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-08.cpp.o
+build 03-08-08: CXX_EXECUTABLE_LINKER__03-08-08_Debug CMakeFiles/03-08-08.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-08.cpp.o CMakeFiles/03-08-08.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-08.dir
   POST_BUILD = :
@@ -718,6 +881,12 @@ build CMakeFiles/03-08-07.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-07.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-07.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-07.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-07_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-07
+  DEP_FILE = CMakeFiles/03-08-07.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-07.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-07.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-07
@@ -726,7 +895,7 @@ build CMakeFiles/03-08-07.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-07
 
-build 03-08-07: CXX_EXECUTABLE_LINKER__03-08-07_Debug CMakeFiles/03-08-07.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-07.cpp.o
+build 03-08-07: CXX_EXECUTABLE_LINKER__03-08-07_Debug CMakeFiles/03-08-07.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-07.cpp.o CMakeFiles/03-08-07.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-07.dir
   POST_BUILD = :
@@ -749,6 +918,12 @@ build CMakeFiles/03-08-06.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-06.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-06.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-06
+  DEP_FILE = CMakeFiles/03-08-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-06
@@ -757,7 +932,7 @@ build CMakeFiles/03-08-06.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-06
 
-build 03-08-06: CXX_EXECUTABLE_LINKER__03-08-06_Debug CMakeFiles/03-08-06.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-06.cpp.o
+build 03-08-06: CXX_EXECUTABLE_LINKER__03-08-06_Debug CMakeFiles/03-08-06.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-06.cpp.o CMakeFiles/03-08-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-06.dir
   POST_BUILD = :
@@ -780,6 +955,12 @@ build CMakeFiles/03-08-04.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-04.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-04.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-04
+  DEP_FILE = CMakeFiles/03-08-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-04
@@ -788,7 +969,7 @@ build CMakeFiles/03-08-04.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-04
 
-build 03-08-04: CXX_EXECUTABLE_LINKER__03-08-04_Debug CMakeFiles/03-08-04.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-04.cpp.o
+build 03-08-04: CXX_EXECUTABLE_LINKER__03-08-04_Debug CMakeFiles/03-08-04.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-04.cpp.o CMakeFiles/03-08-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-04.dir
   POST_BUILD = :
@@ -811,6 +992,12 @@ build CMakeFiles/03-08-03.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-03.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-03.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-03
+  DEP_FILE = CMakeFiles/03-08-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-03
@@ -819,7 +1006,7 @@ build CMakeFiles/03-08-03.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-03
 
-build 03-08-03: CXX_EXECUTABLE_LINKER__03-08-03_Debug CMakeFiles/03-08-03.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-03.cpp.o
+build 03-08-03: CXX_EXECUTABLE_LINKER__03-08-03_Debug CMakeFiles/03-08-03.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-03.cpp.o CMakeFiles/03-08-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-03.dir
   POST_BUILD = :
@@ -842,6 +1029,12 @@ build CMakeFiles/05-06-02.dir/05_STL常用算法/05-06_常用集合算法/05-06-
   OBJECT_DIR = CMakeFiles/05-06-02.dir
   OBJECT_FILE_DIR = CMakeFiles/05-06-02.dir/05_STL常用算法/05-06_常用集合算法
 
+build CMakeFiles/05-06-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-06-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-06-02
+  DEP_FILE = CMakeFiles/05-06-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-06-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-06-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-06-02
@@ -850,7 +1043,7 @@ build CMakeFiles/05-06-02.dir/05_STL常用算法/05-06_常用集合算法/05-06-
 #############################################
 # Link the executable 05-06-02
 
-build 05-06-02: CXX_EXECUTABLE_LINKER__05-06-02_Debug CMakeFiles/05-06-02.dir/05_STL常用算法/05-06_常用集合算法/05-06-02.cpp.o
+build 05-06-02: CXX_EXECUTABLE_LINKER__05-06-02_Debug CMakeFiles/05-06-02.dir/05_STL常用算法/05-06_常用集合算法/05-06-02.cpp.o CMakeFiles/05-06-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-06-02.dir
   POST_BUILD = :
@@ -873,6 +1066,12 @@ build CMakeFiles/03-08-01.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-01.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-01.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-01
+  DEP_FILE = CMakeFiles/03-08-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-01
@@ -881,7 +1080,7 @@ build CMakeFiles/03-08-01.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-01
 
-build 03-08-01: CXX_EXECUTABLE_LINKER__03-08-01_Debug CMakeFiles/03-08-01.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-01.cpp.o
+build 03-08-01: CXX_EXECUTABLE_LINKER__03-08-01_Debug CMakeFiles/03-08-01.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-01.cpp.o CMakeFiles/03-08-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-01.dir
   POST_BUILD = :
@@ -904,6 +1103,12 @@ build CMakeFiles/05-02-02.dir/05_STL常用算法/05-02_常用的查找算法/05-
   OBJECT_DIR = CMakeFiles/05-02-02.dir
   OBJECT_FILE_DIR = CMakeFiles/05-02-02.dir/05_STL常用算法/05-02_常用的查找算法
 
+build CMakeFiles/05-02-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-02-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-02-02
+  DEP_FILE = CMakeFiles/05-02-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-02-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-02-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-02-02
@@ -912,7 +1117,7 @@ build CMakeFiles/05-02-02.dir/05_STL常用算法/05-02_常用的查找算法/05-
 #############################################
 # Link the executable 05-02-02
 
-build 05-02-02: CXX_EXECUTABLE_LINKER__05-02-02_Debug CMakeFiles/05-02-02.dir/05_STL常用算法/05-02_常用的查找算法/05-02-02.cpp.o
+build 05-02-02: CXX_EXECUTABLE_LINKER__05-02-02_Debug CMakeFiles/05-02-02.dir/05_STL常用算法/05-02_常用的查找算法/05-02-02.cpp.o CMakeFiles/05-02-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-02-02.dir
   POST_BUILD = :
@@ -935,6 +1140,12 @@ build CMakeFiles/03-07-06.dir/03_STL_初识/03-07_list容器/03-07-06.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-06.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-06.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-06
+  DEP_FILE = CMakeFiles/03-07-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-06
@@ -943,7 +1154,7 @@ build CMakeFiles/03-07-06.dir/03_STL_初识/03-07_list容器/03-07-06.cpp.o: CXX
 #############################################
 # Link the executable 03-07-06
 
-build 03-07-06: CXX_EXECUTABLE_LINKER__03-07-06_Debug CMakeFiles/03-07-06.dir/03_STL_初识/03-07_list容器/03-07-06.cpp.o
+build 03-07-06: CXX_EXECUTABLE_LINKER__03-07-06_Debug CMakeFiles/03-07-06.dir/03_STL_初识/03-07_list容器/03-07-06.cpp.o CMakeFiles/03-07-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-06.dir
   POST_BUILD = :
@@ -966,6 +1177,12 @@ build CMakeFiles/03-08-05.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-05.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-05.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-05
+  DEP_FILE = CMakeFiles/03-08-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-05
@@ -974,7 +1191,7 @@ build CMakeFiles/03-08-05.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-05
 
-build 03-08-05: CXX_EXECUTABLE_LINKER__03-08-05_Debug CMakeFiles/03-08-05.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-05.cpp.o
+build 03-08-05: CXX_EXECUTABLE_LINKER__03-08-05_Debug CMakeFiles/03-08-05.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-05.cpp.o CMakeFiles/03-08-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-05.dir
   POST_BUILD = :
@@ -997,6 +1214,12 @@ build CMakeFiles/03-02-05.dir/03_STL_初识/03-02_vector容器/03-02-05.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-05.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-05.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-05
+  DEP_FILE = CMakeFiles/03-02-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-05
@@ -1005,7 +1228,7 @@ build CMakeFiles/03-02-05.dir/03_STL_初识/03-02_vector容器/03-02-05.cpp.o: C
 #############################################
 # Link the executable 03-02-05
 
-build 03-02-05: CXX_EXECUTABLE_LINKER__03-02-05_Debug CMakeFiles/03-02-05.dir/03_STL_初识/03-02_vector容器/03-02-05.cpp.o
+build 03-02-05: CXX_EXECUTABLE_LINKER__03-02-05_Debug CMakeFiles/03-02-05.dir/03_STL_初识/03-02_vector容器/03-02-05.cpp.o CMakeFiles/03-02-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-05.dir
   POST_BUILD = :
@@ -1028,6 +1251,12 @@ build CMakeFiles/03-07-01.dir/03_STL_初识/03-07_list容器/03-07-01.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-01.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-01
+  DEP_FILE = CMakeFiles/03-07-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-01
@@ -1036,13 +1265,44 @@ build CMakeFiles/03-07-01.dir/03_STL_初识/03-07_list容器/03-07-01.cpp.o: CXX
 #############################################
 # Link the executable 03-07-01
 
-build 03-07-01: CXX_EXECUTABLE_LINKER__03-07-01_Debug CMakeFiles/03-07-01.dir/03_STL_初识/03-07_list容器/03-07-01.cpp.o
+build 03-07-01: CXX_EXECUTABLE_LINKER__03-07-01_Debug CMakeFiles/03-07-01.dir/03_STL_初识/03-07_list容器/03-07-01.cpp.o CMakeFiles/03-07-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-01.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = 03-07-01
   TARGET_PDB = 03-07-01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target speechManager
+
+
+#############################################
+# Order-only phony target for speechManager
+
+build cmake_object_order_depends_target_speechManager: phony || CMakeFiles/speechManager.dir
+
+build CMakeFiles/speechManager.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__speechManager_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_speechManager
+  DEP_FILE = CMakeFiles/speechManager.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/speechManager.dir
+  OBJECT_FILE_DIR = CMakeFiles/speechManager.dir/06_案例—speechManager
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target speechManager
+
+
+#############################################
+# Link the executable speechManager
+
+build speechManager: CXX_EXECUTABLE_LINKER__speechManager_Debug CMakeFiles/speechManager.dir/06_案例—speechManager/speechManager.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
+  OBJECT_DIR = CMakeFiles/speechManager.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = speechManager
+  TARGET_PDB = speechManager.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-06-01
@@ -1059,6 +1319,12 @@ build CMakeFiles/03-06-01.dir/03_STL_初识/03-06_queue容器/03-06-01.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-06-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-06-01.dir/03_STL_初识/03-06_queue容器
 
+build CMakeFiles/03-06-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-06-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-06-01
+  DEP_FILE = CMakeFiles/03-06-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-06-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-06-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-06-01
@@ -1067,7 +1333,7 @@ build CMakeFiles/03-06-01.dir/03_STL_初识/03-06_queue容器/03-06-01.cpp.o: CX
 #############################################
 # Link the executable 03-06-01
 
-build 03-06-01: CXX_EXECUTABLE_LINKER__03-06-01_Debug CMakeFiles/03-06-01.dir/03_STL_初识/03-06_queue容器/03-06-01.cpp.o
+build 03-06-01: CXX_EXECUTABLE_LINKER__03-06-01_Debug CMakeFiles/03-06-01.dir/03_STL_初识/03-06_queue容器/03-06-01.cpp.o CMakeFiles/03-06-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-06-01.dir
   POST_BUILD = :
@@ -1090,6 +1356,12 @@ build CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-02.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-02
+  DEP_FILE = CMakeFiles/03-07-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-02
@@ -1098,7 +1370,7 @@ build CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o: CXX
 #############################################
 # Link the executable 03-07-02
 
-build 03-07-02: CXX_EXECUTABLE_LINKER__03-07-02_Debug CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o
+build 03-07-02: CXX_EXECUTABLE_LINKER__03-07-02_Debug CMakeFiles/03-07-02.dir/03_STL_初识/03-07_list容器/03-07-02.cpp.o CMakeFiles/03-07-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-02.dir
   POST_BUILD = :
@@ -1121,6 +1393,12 @@ build CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-04.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-04
+  DEP_FILE = CMakeFiles/03-02-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-04
@@ -1129,7 +1407,7 @@ build CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o: C
 #############################################
 # Link the executable 03-02-04
 
-build 03-02-04: CXX_EXECUTABLE_LINKER__03-02-04_Debug CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o
+build 03-02-04: CXX_EXECUTABLE_LINKER__03-02-04_Debug CMakeFiles/03-02-04.dir/03_STL_初识/03-02_vector容器/03-02-04.cpp.o CMakeFiles/03-02-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-04.dir
   POST_BUILD = :
@@ -1152,6 +1430,12 @@ build CMakeFiles/03-03.dir/03_STL_初识/03-03.cpp.o: CXX_COMPILER__03-03_Debug 
   OBJECT_DIR = CMakeFiles/03-03.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03.dir/03_STL_初识
 
+build CMakeFiles/03-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03
+  DEP_FILE = CMakeFiles/03-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03
@@ -1160,7 +1444,7 @@ build CMakeFiles/03-03.dir/03_STL_初识/03-03.cpp.o: CXX_COMPILER__03-03_Debug 
 #############################################
 # Link the executable 03-03
 
-build 03-03: CXX_EXECUTABLE_LINKER__03-03_Debug CMakeFiles/03-03.dir/03_STL_初识/03-03.cpp.o
+build 03-03: CXX_EXECUTABLE_LINKER__03-03_Debug CMakeFiles/03-03.dir/03_STL_初识/03-03.cpp.o CMakeFiles/03-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03.dir
   POST_BUILD = :
@@ -1183,6 +1467,12 @@ build CMakeFiles/03-03-06.dir/03_STL_初识/03-03_deque容器/03-03-06.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-03-06.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-06.dir/03_STL_初识/03-03_deque容器
 
+build CMakeFiles/03-03-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03-06
+  DEP_FILE = CMakeFiles/03-03-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03-06
@@ -1191,7 +1481,7 @@ build CMakeFiles/03-03-06.dir/03_STL_初识/03-03_deque容器/03-03-06.cpp.o: CX
 #############################################
 # Link the executable 03-03-06
 
-build 03-03-06: CXX_EXECUTABLE_LINKER__03-03-06_Debug CMakeFiles/03-03-06.dir/03_STL_初识/03-03_deque容器/03-03-06.cpp.o
+build 03-03-06: CXX_EXECUTABLE_LINKER__03-03-06_Debug CMakeFiles/03-03-06.dir/03_STL_初识/03-03_deque容器/03-03-06.cpp.o CMakeFiles/03-03-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03-06.dir
   POST_BUILD = :
@@ -1214,6 +1504,12 @@ build CMakeFiles/01-03.dir/01_函数模版语法/01-03.cpp.o: CXX_COMPILER__01-0
   OBJECT_DIR = CMakeFiles/01-03.dir
   OBJECT_FILE_DIR = CMakeFiles/01-03.dir/01_函数模版语法
 
+build CMakeFiles/01-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__01-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_01-03
+  DEP_FILE = CMakeFiles/01-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01-03
@@ -1222,7 +1518,7 @@ build CMakeFiles/01-03.dir/01_函数模版语法/01-03.cpp.o: CXX_COMPILER__01-0
 #############################################
 # Link the executable 01-03
 
-build 01-03: CXX_EXECUTABLE_LINKER__01-03_Debug CMakeFiles/01-03.dir/01_函数模版语法/01-03.cpp.o
+build 01-03: CXX_EXECUTABLE_LINKER__01-03_Debug CMakeFiles/01-03.dir/01_函数模版语法/01-03.cpp.o CMakeFiles/01-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/01-03.dir
   POST_BUILD = :
@@ -1245,6 +1541,12 @@ build CMakeFiles/03-03-03.dir/03_STL_初识/03-03_deque容器/03-03-03.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-03-03.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-03.dir/03_STL_初识/03-03_deque容器
 
+build CMakeFiles/03-03-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03-03
+  DEP_FILE = CMakeFiles/03-03-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03-03
@@ -1253,7 +1555,7 @@ build CMakeFiles/03-03-03.dir/03_STL_初识/03-03_deque容器/03-03-03.cpp.o: CX
 #############################################
 # Link the executable 03-03-03
 
-build 03-03-03: CXX_EXECUTABLE_LINKER__03-03-03_Debug CMakeFiles/03-03-03.dir/03_STL_初识/03-03_deque容器/03-03-03.cpp.o
+build 03-03-03: CXX_EXECUTABLE_LINKER__03-03-03_Debug CMakeFiles/03-03-03.dir/03_STL_初识/03-03_deque容器/03-03-03.cpp.o CMakeFiles/03-03-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03-03.dir
   POST_BUILD = :
@@ -1276,6 +1578,12 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXX
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX
 
+build CMakeFiles/CMakeCXXCompilerId.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -1284,7 +1592,7 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXX
 #############################################
 # Link the executable CMakeCXXCompilerId
 
-build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   POST_BUILD = :
@@ -1307,6 +1615,12 @@ build CMakeFiles/03-03-01.dir/03_STL_初识/03-03_deque容器/03-03-01.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-03-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-01.dir/03_STL_初识/03-03_deque容器
 
+build CMakeFiles/03-03-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03-01
+  DEP_FILE = CMakeFiles/03-03-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03-01
@@ -1315,7 +1629,7 @@ build CMakeFiles/03-03-01.dir/03_STL_初识/03-03_deque容器/03-03-01.cpp.o: CX
 #############################################
 # Link the executable 03-03-01
 
-build 03-03-01: CXX_EXECUTABLE_LINKER__03-03-01_Debug CMakeFiles/03-03-01.dir/03_STL_初识/03-03_deque容器/03-03-01.cpp.o
+build 03-03-01: CXX_EXECUTABLE_LINKER__03-03-01_Debug CMakeFiles/03-03-01.dir/03_STL_初识/03-03_deque容器/03-03-01.cpp.o CMakeFiles/03-03-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03-01.dir
   POST_BUILD = :
@@ -1338,6 +1652,12 @@ build CMakeFiles/03-09-02.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-02
   OBJECT_DIR = CMakeFiles/03-09-02.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-09-02.dir/03_STL_初识/03-09_map_&&_multimap容器"
 
+build CMakeFiles/03-09-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-09-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-09-02
+  DEP_FILE = CMakeFiles/03-09-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-09-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-09-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-09-02
@@ -1346,7 +1666,7 @@ build CMakeFiles/03-09-02.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-02
 #############################################
 # Link the executable 03-09-02
 
-build 03-09-02: CXX_EXECUTABLE_LINKER__03-09-02_Debug CMakeFiles/03-09-02.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-02.cpp.o
+build 03-09-02: CXX_EXECUTABLE_LINKER__03-09-02_Debug CMakeFiles/03-09-02.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-02.cpp.o CMakeFiles/03-09-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-09-02.dir
   POST_BUILD = :
@@ -1369,6 +1689,12 @@ build CMakeFiles/02-05.dir/02_类模版语法/02-05.cpp.o: CXX_COMPILER__02-05_D
   OBJECT_DIR = CMakeFiles/02-05.dir
   OBJECT_FILE_DIR = CMakeFiles/02-05.dir/02_类模版语法
 
+build CMakeFiles/02-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-05
+  DEP_FILE = CMakeFiles/02-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-05
@@ -1377,7 +1703,7 @@ build CMakeFiles/02-05.dir/02_类模版语法/02-05.cpp.o: CXX_COMPILER__02-05_D
 #############################################
 # Link the executable 02-05
 
-build 02-05: CXX_EXECUTABLE_LINKER__02-05_Debug CMakeFiles/02-05.dir/02_类模版语法/02-05.cpp.o
+build 02-05: CXX_EXECUTABLE_LINKER__02-05_Debug CMakeFiles/02-05.dir/02_类模版语法/02-05.cpp.o CMakeFiles/02-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-05.dir
   POST_BUILD = :
@@ -1400,6 +1726,12 @@ build CMakeFiles/03-01-06.dir/03_STL_初识/03-01_string容器/03-01-06.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-06.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-06.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-06
+  DEP_FILE = CMakeFiles/03-01-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-06
@@ -1408,7 +1740,7 @@ build CMakeFiles/03-01-06.dir/03_STL_初识/03-01_string容器/03-01-06.cpp.o: C
 #############################################
 # Link the executable 03-01-06
 
-build 03-01-06: CXX_EXECUTABLE_LINKER__03-01-06_Debug CMakeFiles/03-01-06.dir/03_STL_初识/03-01_string容器/03-01-06.cpp.o
+build 03-01-06: CXX_EXECUTABLE_LINKER__03-01-06_Debug CMakeFiles/03-01-06.dir/03_STL_初识/03-01_string容器/03-01-06.cpp.o CMakeFiles/03-01-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-06.dir
   POST_BUILD = :
@@ -1431,6 +1763,12 @@ build CMakeFiles/03-05-01.dir/03_STL_初识/03-05_stack容器/03-05-01.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-05-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-05-01.dir/03_STL_初识/03-05_stack容器
 
+build CMakeFiles/03-05-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-05-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-05-01
+  DEP_FILE = CMakeFiles/03-05-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-05-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-05-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-05-01
@@ -1439,7 +1777,7 @@ build CMakeFiles/03-05-01.dir/03_STL_初识/03-05_stack容器/03-05-01.cpp.o: CX
 #############################################
 # Link the executable 03-05-01
 
-build 03-05-01: CXX_EXECUTABLE_LINKER__03-05-01_Debug CMakeFiles/03-05-01.dir/03_STL_初识/03-05_stack容器/03-05-01.cpp.o
+build 03-05-01: CXX_EXECUTABLE_LINKER__03-05-01_Debug CMakeFiles/03-05-01.dir/03_STL_初识/03-05_stack容器/03-05-01.cpp.o CMakeFiles/03-05-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-05-01.dir
   POST_BUILD = :
@@ -1462,6 +1800,12 @@ build CMakeFiles/05-02-05.dir/05_STL常用算法/05-02_常用的查找算法/05-
   OBJECT_DIR = CMakeFiles/05-02-05.dir
   OBJECT_FILE_DIR = CMakeFiles/05-02-05.dir/05_STL常用算法/05-02_常用的查找算法
 
+build CMakeFiles/05-02-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-02-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-02-05
+  DEP_FILE = CMakeFiles/05-02-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-02-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-02-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-02-05
@@ -1470,7 +1814,7 @@ build CMakeFiles/05-02-05.dir/05_STL常用算法/05-02_常用的查找算法/05-
 #############################################
 # Link the executable 05-02-05
 
-build 05-02-05: CXX_EXECUTABLE_LINKER__05-02-05_Debug CMakeFiles/05-02-05.dir/05_STL常用算法/05-02_常用的查找算法/05-02-05.cpp.o
+build 05-02-05: CXX_EXECUTABLE_LINKER__05-02-05_Debug CMakeFiles/05-02-05.dir/05_STL常用算法/05-02_常用的查找算法/05-02-05.cpp.o CMakeFiles/05-02-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-02-05.dir
   POST_BUILD = :
@@ -1493,6 +1837,12 @@ build CMakeFiles/03-03-02.dir/03_STL_初识/03-03_deque容器/03-03-02.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-03-02.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-02.dir/03_STL_初识/03-03_deque容器
 
+build CMakeFiles/03-03-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03-02
+  DEP_FILE = CMakeFiles/03-03-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03-02
@@ -1501,7 +1851,7 @@ build CMakeFiles/03-03-02.dir/03_STL_初识/03-03_deque容器/03-03-02.cpp.o: CX
 #############################################
 # Link the executable 03-03-02
 
-build 03-03-02: CXX_EXECUTABLE_LINKER__03-03-02_Debug CMakeFiles/03-03-02.dir/03_STL_初识/03-03_deque容器/03-03-02.cpp.o
+build 03-03-02: CXX_EXECUTABLE_LINKER__03-03-02_Debug CMakeFiles/03-03-02.dir/03_STL_初识/03-03_deque容器/03-03-02.cpp.o CMakeFiles/03-03-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03-02.dir
   POST_BUILD = :
@@ -1524,6 +1874,12 @@ build CMakeFiles/05-03-03.dir/05_STL常用算法/05-03_常用的排序算法/05-
   OBJECT_DIR = CMakeFiles/05-03-03.dir
   OBJECT_FILE_DIR = CMakeFiles/05-03-03.dir/05_STL常用算法/05-03_常用的排序算法
 
+build CMakeFiles/05-03-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-03-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-03-03
+  DEP_FILE = CMakeFiles/05-03-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-03-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-03-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-03-03
@@ -1532,7 +1888,7 @@ build CMakeFiles/05-03-03.dir/05_STL常用算法/05-03_常用的排序算法/05-
 #############################################
 # Link the executable 05-03-03
 
-build 05-03-03: CXX_EXECUTABLE_LINKER__05-03-03_Debug CMakeFiles/05-03-03.dir/05_STL常用算法/05-03_常用的排序算法/05-03-03.cpp.o
+build 05-03-03: CXX_EXECUTABLE_LINKER__05-03-03_Debug CMakeFiles/05-03-03.dir/05_STL常用算法/05-03_常用的排序算法/05-03-03.cpp.o CMakeFiles/05-03-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-03-03.dir
   POST_BUILD = :
@@ -1555,6 +1911,12 @@ build CMakeFiles/05-01-02.dir/05_STL常用算法/05-01_常用遍历算法/05-01-
   OBJECT_DIR = CMakeFiles/05-01-02.dir
   OBJECT_FILE_DIR = CMakeFiles/05-01-02.dir/05_STL常用算法/05-01_常用遍历算法
 
+build CMakeFiles/05-01-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-01-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-01-02
+  DEP_FILE = CMakeFiles/05-01-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-01-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-01-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-01-02
@@ -1563,7 +1925,7 @@ build CMakeFiles/05-01-02.dir/05_STL常用算法/05-01_常用遍历算法/05-01-
 #############################################
 # Link the executable 05-01-02
 
-build 05-01-02: CXX_EXECUTABLE_LINKER__05-01-02_Debug CMakeFiles/05-01-02.dir/05_STL常用算法/05-01_常用遍历算法/05-01-02.cpp.o
+build 05-01-02: CXX_EXECUTABLE_LINKER__05-01-02_Debug CMakeFiles/05-01-02.dir/05_STL常用算法/05-01_常用遍历算法/05-01-02.cpp.o CMakeFiles/05-01-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-01-02.dir
   POST_BUILD = :
@@ -1586,6 +1948,12 @@ build CMakeFiles/03-09-01.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-01
   OBJECT_DIR = CMakeFiles/03-09-01.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-09-01.dir/03_STL_初识/03-09_map_&&_multimap容器"
 
+build CMakeFiles/03-09-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-09-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-09-01
+  DEP_FILE = CMakeFiles/03-09-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-09-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-09-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-09-01
@@ -1594,7 +1962,7 @@ build CMakeFiles/03-09-01.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-01
 #############################################
 # Link the executable 03-09-01
 
-build 03-09-01: CXX_EXECUTABLE_LINKER__03-09-01_Debug CMakeFiles/03-09-01.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-01.cpp.o
+build 03-09-01: CXX_EXECUTABLE_LINKER__03-09-01_Debug CMakeFiles/03-09-01.dir/03_STL_初识/03-09_map_&&_multimap容器/03-09-01.cpp.o CMakeFiles/03-09-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-09-01.dir
   POST_BUILD = :
@@ -1617,6 +1985,12 @@ build CMakeFiles/03-02-07.dir/03_STL_初识/03-02_vector容器/03-02-07.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-07.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-07.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-07.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-07_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-07
+  DEP_FILE = CMakeFiles/03-02-07.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-07.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-07.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-07
@@ -1625,7 +1999,7 @@ build CMakeFiles/03-02-07.dir/03_STL_初识/03-02_vector容器/03-02-07.cpp.o: C
 #############################################
 # Link the executable 03-02-07
 
-build 03-02-07: CXX_EXECUTABLE_LINKER__03-02-07_Debug CMakeFiles/03-02-07.dir/03_STL_初识/03-02_vector容器/03-02-07.cpp.o
+build 03-02-07: CXX_EXECUTABLE_LINKER__03-02-07_Debug CMakeFiles/03-02-07.dir/03_STL_初识/03-02_vector容器/03-02-07.cpp.o CMakeFiles/03-02-07.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-07.dir
   POST_BUILD = :
@@ -1648,6 +2022,12 @@ build CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o: CXX_COMPILER__Perso
   OBJECT_DIR = CMakeFiles/Person.dir
   OBJECT_FILE_DIR = CMakeFiles/Person.dir/02_类模版语法
 
+build CMakeFiles/Person.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__Person_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_Person
+  DEP_FILE = CMakeFiles/Person.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Person.dir
+  OBJECT_FILE_DIR = CMakeFiles/Person.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Person
@@ -1656,7 +2036,7 @@ build CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o: CXX_COMPILER__Perso
 #############################################
 # Link the executable Person
 
-build Person: CXX_EXECUTABLE_LINKER__Person_Debug CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o
+build Person: CXX_EXECUTABLE_LINKER__Person_Debug CMakeFiles/Person.dir/02_类模版语法/Person.cpp.o CMakeFiles/Person.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/Person.dir
   POST_BUILD = :
@@ -1679,6 +2059,12 @@ build CMakeFiles/03-07-03.dir/03_STL_初识/03-07_list容器/03-07-03.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-03.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-03.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-03
+  DEP_FILE = CMakeFiles/03-07-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-03
@@ -1687,7 +2073,7 @@ build CMakeFiles/03-07-03.dir/03_STL_初识/03-07_list容器/03-07-03.cpp.o: CXX
 #############################################
 # Link the executable 03-07-03
 
-build 03-07-03: CXX_EXECUTABLE_LINKER__03-07-03_Debug CMakeFiles/03-07-03.dir/03_STL_初识/03-07_list容器/03-07-03.cpp.o
+build 03-07-03: CXX_EXECUTABLE_LINKER__03-07-03_Debug CMakeFiles/03-07-03.dir/03_STL_初识/03-07_list容器/03-07-03.cpp.o CMakeFiles/03-07-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-03.dir
   POST_BUILD = :
@@ -1710,6 +2096,12 @@ build CMakeFiles/03-02-06.dir/03_STL_初识/03-02_vector容器/03-02-06.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-06.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-06.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-06
+  DEP_FILE = CMakeFiles/03-02-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-06
@@ -1718,7 +2110,7 @@ build CMakeFiles/03-02-06.dir/03_STL_初识/03-02_vector容器/03-02-06.cpp.o: C
 #############################################
 # Link the executable 03-02-06
 
-build 03-02-06: CXX_EXECUTABLE_LINKER__03-02-06_Debug CMakeFiles/03-02-06.dir/03_STL_初识/03-02_vector容器/03-02-06.cpp.o
+build 03-02-06: CXX_EXECUTABLE_LINKER__03-02-06_Debug CMakeFiles/03-02-06.dir/03_STL_初识/03-02_vector容器/03-02-06.cpp.o CMakeFiles/03-02-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-06.dir
   POST_BUILD = :
@@ -1741,6 +2133,12 @@ build CMakeFiles/03-07-04.dir/03_STL_初识/03-07_list容器/03-07-04.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-04.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-04.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-04
+  DEP_FILE = CMakeFiles/03-07-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-04
@@ -1749,7 +2147,7 @@ build CMakeFiles/03-07-04.dir/03_STL_初识/03-07_list容器/03-07-04.cpp.o: CXX
 #############################################
 # Link the executable 03-07-04
 
-build 03-07-04: CXX_EXECUTABLE_LINKER__03-07-04_Debug CMakeFiles/03-07-04.dir/03_STL_初识/03-07_list容器/03-07-04.cpp.o
+build 03-07-04: CXX_EXECUTABLE_LINKER__03-07-04_Debug CMakeFiles/03-07-04.dir/03_STL_初识/03-07_list容器/03-07-04.cpp.o CMakeFiles/03-07-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-04.dir
   POST_BUILD = :
@@ -1772,6 +2170,12 @@ build CMakeFiles/02-09.dir/02_类模版语法/类模版案例/02-09.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/02-09.dir
   OBJECT_FILE_DIR = CMakeFiles/02-09.dir/02_类模版语法/类模版案例
 
+build CMakeFiles/02-09.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-09_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-09
+  DEP_FILE = CMakeFiles/02-09.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-09.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-09.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-09
@@ -1780,7 +2184,7 @@ build CMakeFiles/02-09.dir/02_类模版语法/类模版案例/02-09.cpp.o: CXX_C
 #############################################
 # Link the executable 02-09
 
-build 02-09: CXX_EXECUTABLE_LINKER__02-09_Debug CMakeFiles/02-09.dir/02_类模版语法/类模版案例/02-09.cpp.o
+build 02-09: CXX_EXECUTABLE_LINKER__02-09_Debug CMakeFiles/02-09.dir/02_类模版语法/类模版案例/02-09.cpp.o CMakeFiles/02-09.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-09.dir
   POST_BUILD = :
@@ -1803,6 +2207,12 @@ build CMakeFiles/03-01-02.dir/03_STL_初识/03-01_string容器/03-01-02.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-02.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-02.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-02
+  DEP_FILE = CMakeFiles/03-01-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-02
@@ -1811,7 +2221,7 @@ build CMakeFiles/03-01-02.dir/03_STL_初识/03-01_string容器/03-01-02.cpp.o: C
 #############################################
 # Link the executable 03-01-02
 
-build 03-01-02: CXX_EXECUTABLE_LINKER__03-01-02_Debug CMakeFiles/03-01-02.dir/03_STL_初识/03-01_string容器/03-01-02.cpp.o
+build 03-01-02: CXX_EXECUTABLE_LINKER__03-01-02_Debug CMakeFiles/03-01-02.dir/03_STL_初识/03-01_string容器/03-01-02.cpp.o CMakeFiles/03-01-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-02.dir
   POST_BUILD = :
@@ -1834,6 +2244,12 @@ build CMakeFiles/03-03-05.dir/03_STL_初识/03-03_deque容器/03-03-05.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-03-05.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-05.dir/03_STL_初识/03-03_deque容器
 
+build CMakeFiles/03-03-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03-05
+  DEP_FILE = CMakeFiles/03-03-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03-05
@@ -1842,7 +2258,7 @@ build CMakeFiles/03-03-05.dir/03_STL_初识/03-03_deque容器/03-03-05.cpp.o: CX
 #############################################
 # Link the executable 03-03-05
 
-build 03-03-05: CXX_EXECUTABLE_LINKER__03-03-05_Debug CMakeFiles/03-03-05.dir/03_STL_初识/03-03_deque容器/03-03-05.cpp.o
+build 03-03-05: CXX_EXECUTABLE_LINKER__03-03-05_Debug CMakeFiles/03-03-05.dir/03_STL_初识/03-03_deque容器/03-03-05.cpp.o CMakeFiles/03-03-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03-05.dir
   POST_BUILD = :
@@ -1865,6 +2281,12 @@ build CMakeFiles/03-07-07.dir/03_STL_初识/03-07_list容器/03-07-07.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-07.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-07.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-07.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-07_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-07
+  DEP_FILE = CMakeFiles/03-07-07.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-07.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-07.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-07
@@ -1873,7 +2295,7 @@ build CMakeFiles/03-07-07.dir/03_STL_初识/03-07_list容器/03-07-07.cpp.o: CXX
 #############################################
 # Link the executable 03-07-07
 
-build 03-07-07: CXX_EXECUTABLE_LINKER__03-07-07_Debug CMakeFiles/03-07-07.dir/03_STL_初识/03-07_list容器/03-07-07.cpp.o
+build 03-07-07: CXX_EXECUTABLE_LINKER__03-07-07_Debug CMakeFiles/03-07-07.dir/03_STL_初识/03-07_list容器/03-07-07.cpp.o CMakeFiles/03-07-07.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-07.dir
   POST_BUILD = :
@@ -1896,6 +2318,12 @@ build CMakeFiles/03-01-03.dir/03_STL_初识/03-01_string容器/03-01-03.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-03.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-03.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-03
+  DEP_FILE = CMakeFiles/03-01-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-03
@@ -1904,7 +2332,7 @@ build CMakeFiles/03-01-03.dir/03_STL_初识/03-01_string容器/03-01-03.cpp.o: C
 #############################################
 # Link the executable 03-01-03
 
-build 03-01-03: CXX_EXECUTABLE_LINKER__03-01-03_Debug CMakeFiles/03-01-03.dir/03_STL_初识/03-01_string容器/03-01-03.cpp.o
+build 03-01-03: CXX_EXECUTABLE_LINKER__03-01-03_Debug CMakeFiles/03-01-03.dir/03_STL_初识/03-01_string容器/03-01-03.cpp.o CMakeFiles/03-01-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-03.dir
   POST_BUILD = :
@@ -1927,6 +2355,12 @@ build CMakeFiles/03-02-03.dir/03_STL_初识/03-02_vector容器/03-02-03.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-03.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-03.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-03
+  DEP_FILE = CMakeFiles/03-02-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-03
@@ -1935,7 +2369,7 @@ build CMakeFiles/03-02-03.dir/03_STL_初识/03-02_vector容器/03-02-03.cpp.o: C
 #############################################
 # Link the executable 03-02-03
 
-build 03-02-03: CXX_EXECUTABLE_LINKER__03-02-03_Debug CMakeFiles/03-02-03.dir/03_STL_初识/03-02_vector容器/03-02-03.cpp.o
+build 03-02-03: CXX_EXECUTABLE_LINKER__03-02-03_Debug CMakeFiles/03-02-03.dir/03_STL_初识/03-02_vector容器/03-02-03.cpp.o CMakeFiles/03-02-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-03.dir
   POST_BUILD = :
@@ -1958,6 +2392,12 @@ build CMakeFiles/03-02-01.dir/03_STL_初识/03-02_vector容器/03-02-01.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-01.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-01
+  DEP_FILE = CMakeFiles/03-02-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-01
@@ -1966,7 +2406,7 @@ build CMakeFiles/03-02-01.dir/03_STL_初识/03-02_vector容器/03-02-01.cpp.o: C
 #############################################
 # Link the executable 03-02-01
 
-build 03-02-01: CXX_EXECUTABLE_LINKER__03-02-01_Debug CMakeFiles/03-02-01.dir/03_STL_初识/03-02_vector容器/03-02-01.cpp.o
+build 03-02-01: CXX_EXECUTABLE_LINKER__03-02-01_Debug CMakeFiles/03-02-01.dir/03_STL_初识/03-02_vector容器/03-02-01.cpp.o CMakeFiles/03-02-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-01.dir
   POST_BUILD = :
@@ -1989,6 +2429,12 @@ build CMakeFiles/03-01-04.dir/03_STL_初识/03-01_string容器/03-01-04.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-04.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-04.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-04
+  DEP_FILE = CMakeFiles/03-01-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-04
@@ -1997,7 +2443,7 @@ build CMakeFiles/03-01-04.dir/03_STL_初识/03-01_string容器/03-01-04.cpp.o: C
 #############################################
 # Link the executable 03-01-04
 
-build 03-01-04: CXX_EXECUTABLE_LINKER__03-01-04_Debug CMakeFiles/03-01-04.dir/03_STL_初识/03-01_string容器/03-01-04.cpp.o
+build 03-01-04: CXX_EXECUTABLE_LINKER__03-01-04_Debug CMakeFiles/03-01-04.dir/03_STL_初识/03-01_string容器/03-01-04.cpp.o CMakeFiles/03-01-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-04.dir
   POST_BUILD = :
@@ -2020,6 +2466,12 @@ build CMakeFiles/03-01.dir/03_STL_初识/03-01.cpp.o: CXX_COMPILER__03-01_Debug 
   OBJECT_DIR = CMakeFiles/03-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01.dir/03_STL_初识
 
+build CMakeFiles/03-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01
+  DEP_FILE = CMakeFiles/03-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01
@@ -2028,7 +2480,7 @@ build CMakeFiles/03-01.dir/03_STL_初识/03-01.cpp.o: CXX_COMPILER__03-01_Debug 
 #############################################
 # Link the executable 03-01
 
-build 03-01: CXX_EXECUTABLE_LINKER__03-01_Debug CMakeFiles/03-01.dir/03_STL_初识/03-01.cpp.o
+build 03-01: CXX_EXECUTABLE_LINKER__03-01_Debug CMakeFiles/03-01.dir/03_STL_初识/03-01.cpp.o CMakeFiles/03-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01.dir
   POST_BUILD = :
@@ -2051,6 +2503,12 @@ build CMakeFiles/03-08-02.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
   OBJECT_DIR = CMakeFiles/03-08-02.dir
   OBJECT_FILE_DIR = "CMakeFiles/03-08-02.dir/03_STL_初识/03-08_set_&&_multiset_容器"
 
+build CMakeFiles/03-08-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-08-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-08-02
+  DEP_FILE = CMakeFiles/03-08-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-08-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-08-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-08-02
@@ -2059,7 +2517,7 @@ build CMakeFiles/03-08-02.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-0
 #############################################
 # Link the executable 03-08-02
 
-build 03-08-02: CXX_EXECUTABLE_LINKER__03-08-02_Debug CMakeFiles/03-08-02.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-02.cpp.o
+build 03-08-02: CXX_EXECUTABLE_LINKER__03-08-02_Debug CMakeFiles/03-08-02.dir/03_STL_初识/03-08_set_&&_multiset_容器/03-08-02.cpp.o CMakeFiles/03-08-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-08-02.dir
   POST_BUILD = :
@@ -2082,6 +2540,12 @@ build CMakeFiles/03-01-05.dir/03_STL_初识/03-01_string容器/03-01-05.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-05.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-05.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-05
+  DEP_FILE = CMakeFiles/03-01-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-05
@@ -2090,7 +2554,7 @@ build CMakeFiles/03-01-05.dir/03_STL_初识/03-01_string容器/03-01-05.cpp.o: C
 #############################################
 # Link the executable 03-01-05
 
-build 03-01-05: CXX_EXECUTABLE_LINKER__03-01-05_Debug CMakeFiles/03-01-05.dir/03_STL_初识/03-01_string容器/03-01-05.cpp.o
+build 03-01-05: CXX_EXECUTABLE_LINKER__03-01-05_Debug CMakeFiles/03-01-05.dir/03_STL_初识/03-01_string容器/03-01-05.cpp.o CMakeFiles/03-01-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-05.dir
   POST_BUILD = :
@@ -2113,6 +2577,12 @@ build CMakeFiles/04-03-01.dir/04_STL_-函数对象/04-03_内建函数对象/04-0
   OBJECT_DIR = CMakeFiles/04-03-01.dir
   OBJECT_FILE_DIR = CMakeFiles/04-03-01.dir/04_STL_-函数对象/04-03_内建函数对象
 
+build CMakeFiles/04-03-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__04-03-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_04-03-01
+  DEP_FILE = CMakeFiles/04-03-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/04-03-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-03-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04-03-01
@@ -2121,7 +2591,7 @@ build CMakeFiles/04-03-01.dir/04_STL_-函数对象/04-03_内建函数对象/04-0
 #############################################
 # Link the executable 04-03-01
 
-build 04-03-01: CXX_EXECUTABLE_LINKER__04-03-01_Debug CMakeFiles/04-03-01.dir/04_STL_-函数对象/04-03_内建函数对象/04-03-01.cpp.o
+build 04-03-01: CXX_EXECUTABLE_LINKER__04-03-01_Debug CMakeFiles/04-03-01.dir/04_STL_-函数对象/04-03_内建函数对象/04-03-01.cpp.o CMakeFiles/04-03-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/04-03-01.dir
   POST_BUILD = :
@@ -2144,6 +2614,12 @@ build CMakeFiles/02-02.dir/02_类模版语法/02-02.cpp.o: CXX_COMPILER__02-02_D
   OBJECT_DIR = CMakeFiles/02-02.dir
   OBJECT_FILE_DIR = CMakeFiles/02-02.dir/02_类模版语法
 
+build CMakeFiles/02-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-02
+  DEP_FILE = CMakeFiles/02-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-02
@@ -2152,7 +2628,7 @@ build CMakeFiles/02-02.dir/02_类模版语法/02-02.cpp.o: CXX_COMPILER__02-02_D
 #############################################
 # Link the executable 02-02
 
-build 02-02: CXX_EXECUTABLE_LINKER__02-02_Debug CMakeFiles/02-02.dir/02_类模版语法/02-02.cpp.o
+build 02-02: CXX_EXECUTABLE_LINKER__02-02_Debug CMakeFiles/02-02.dir/02_类模版语法/02-02.cpp.o CMakeFiles/02-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-02.dir
   POST_BUILD = :
@@ -2175,6 +2651,12 @@ build CMakeFiles/05-06-01.dir/05_STL常用算法/05-06_常用集合算法/05-06-
   OBJECT_DIR = CMakeFiles/05-06-01.dir
   OBJECT_FILE_DIR = CMakeFiles/05-06-01.dir/05_STL常用算法/05-06_常用集合算法
 
+build CMakeFiles/05-06-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-06-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-06-01
+  DEP_FILE = CMakeFiles/05-06-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-06-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-06-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-06-01
@@ -2183,7 +2665,7 @@ build CMakeFiles/05-06-01.dir/05_STL常用算法/05-06_常用集合算法/05-06-
 #############################################
 # Link the executable 05-06-01
 
-build 05-06-01: CXX_EXECUTABLE_LINKER__05-06-01_Debug CMakeFiles/05-06-01.dir/05_STL常用算法/05-06_常用集合算法/05-06-01.cpp.o
+build 05-06-01: CXX_EXECUTABLE_LINKER__05-06-01_Debug CMakeFiles/05-06-01.dir/05_STL常用算法/05-06_常用集合算法/05-06-01.cpp.o CMakeFiles/05-06-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-06-01.dir
   POST_BUILD = :
@@ -2206,6 +2688,12 @@ build CMakeFiles/03-01-01.dir/03_STL_初识/03-01_string容器/03-01-01.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-01.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-01
+  DEP_FILE = CMakeFiles/03-01-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-01
@@ -2214,7 +2702,7 @@ build CMakeFiles/03-01-01.dir/03_STL_初识/03-01_string容器/03-01-01.cpp.o: C
 #############################################
 # Link the executable 03-01-01
 
-build 03-01-01: CXX_EXECUTABLE_LINKER__03-01-01_Debug CMakeFiles/03-01-01.dir/03_STL_初识/03-01_string容器/03-01-01.cpp.o
+build 03-01-01: CXX_EXECUTABLE_LINKER__03-01-01_Debug CMakeFiles/03-01-01.dir/03_STL_初识/03-01_string容器/03-01-01.cpp.o CMakeFiles/03-01-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-01.dir
   POST_BUILD = :
@@ -2237,6 +2725,12 @@ build CMakeFiles/03-02.dir/03_STL_初识/03-02.cpp.o: CXX_COMPILER__03-02_Debug 
   OBJECT_DIR = CMakeFiles/03-02.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02.dir/03_STL_初识
 
+build CMakeFiles/03-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02
+  DEP_FILE = CMakeFiles/03-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02
@@ -2245,7 +2739,7 @@ build CMakeFiles/03-02.dir/03_STL_初识/03-02.cpp.o: CXX_COMPILER__03-02_Debug 
 #############################################
 # Link the executable 03-02
 
-build 03-02: CXX_EXECUTABLE_LINKER__03-02_Debug CMakeFiles/03-02.dir/03_STL_初识/03-02.cpp.o
+build 03-02: CXX_EXECUTABLE_LINKER__03-02_Debug CMakeFiles/03-02.dir/03_STL_初识/03-02.cpp.o CMakeFiles/03-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02.dir
   POST_BUILD = :
@@ -2268,6 +2762,12 @@ build CMakeFiles/03-01-08.dir/03_STL_初识/03-01_string容器/03-01-08.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-08.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-08.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-08.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-08_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-08
+  DEP_FILE = CMakeFiles/03-01-08.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-08.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-08.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-08
@@ -2276,7 +2776,7 @@ build CMakeFiles/03-01-08.dir/03_STL_初识/03-01_string容器/03-01-08.cpp.o: C
 #############################################
 # Link the executable 03-01-08
 
-build 03-01-08: CXX_EXECUTABLE_LINKER__03-01-08_Debug CMakeFiles/03-01-08.dir/03_STL_初识/03-01_string容器/03-01-08.cpp.o
+build 03-01-08: CXX_EXECUTABLE_LINKER__03-01-08_Debug CMakeFiles/03-01-08.dir/03_STL_初识/03-01_string容器/03-01-08.cpp.o CMakeFiles/03-01-08.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-08.dir
   POST_BUILD = :
@@ -2310,6 +2810,12 @@ build CMakeFiles/05-06-03.dir/05_STL常用算法/05-06_常用集合算法/05-06-
   OBJECT_DIR = CMakeFiles/05-06-03.dir
   OBJECT_FILE_DIR = CMakeFiles/05-06-03.dir/05_STL常用算法/05-06_常用集合算法
 
+build CMakeFiles/05-06-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-06-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-06-03
+  DEP_FILE = CMakeFiles/05-06-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-06-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-06-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-06-03
@@ -2318,7 +2824,7 @@ build CMakeFiles/05-06-03.dir/05_STL常用算法/05-06_常用集合算法/05-06-
 #############################################
 # Link the executable 05-06-03
 
-build 05-06-03: CXX_EXECUTABLE_LINKER__05-06-03_Debug CMakeFiles/05-06-03.dir/05_STL常用算法/05-06_常用集合算法/05-06-03.cpp.o
+build 05-06-03: CXX_EXECUTABLE_LINKER__05-06-03_Debug CMakeFiles/05-06-03.dir/05_STL常用算法/05-06_常用集合算法/05-06-03.cpp.o CMakeFiles/05-06-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-06-03.dir
   POST_BUILD = :
@@ -2341,6 +2847,12 @@ build CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o: CXX_COMPILER__02-06_D
   OBJECT_DIR = CMakeFiles/02-06.dir
   OBJECT_FILE_DIR = CMakeFiles/02-06.dir/02_类模版语法
 
+build CMakeFiles/02-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-06
+  DEP_FILE = CMakeFiles/02-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-06
@@ -2349,7 +2861,7 @@ build CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o: CXX_COMPILER__02-06_D
 #############################################
 # Link the executable 02-06
 
-build 02-06: CXX_EXECUTABLE_LINKER__02-06_Debug CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o
+build 02-06: CXX_EXECUTABLE_LINKER__02-06_Debug CMakeFiles/02-06.dir/02_类模版语法/02-06.cpp.o CMakeFiles/02-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-06.dir
   POST_BUILD = :
@@ -2372,6 +2884,12 @@ build CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o: CX
   OBJECT_DIR = CMakeFiles/03-03-04.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器
 
+build CMakeFiles/03-03-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-03-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-03-04
+  DEP_FILE = CMakeFiles/03-03-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-03-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-03-04
@@ -2380,7 +2898,7 @@ build CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o: CX
 #############################################
 # Link the executable 03-03-04
 
-build 03-03-04: CXX_EXECUTABLE_LINKER__03-03-04_Debug CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o
+build 03-03-04: CXX_EXECUTABLE_LINKER__03-03-04_Debug CMakeFiles/03-03-04.dir/03_STL_初识/03-03_deque容器/03-03-04.cpp.o CMakeFiles/03-03-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-03-04.dir
   POST_BUILD = :
@@ -2403,6 +2921,12 @@ build CMakeFiles/02-08.dir/02_类模版语法/02-08.cpp.o: CXX_COMPILER__02-08_D
   OBJECT_DIR = CMakeFiles/02-08.dir
   OBJECT_FILE_DIR = CMakeFiles/02-08.dir/02_类模版语法
 
+build CMakeFiles/02-08.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-08_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-08
+  DEP_FILE = CMakeFiles/02-08.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-08.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-08.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-08
@@ -2411,7 +2935,7 @@ build CMakeFiles/02-08.dir/02_类模版语法/02-08.cpp.o: CXX_COMPILER__02-08_D
 #############################################
 # Link the executable 02-08
 
-build 02-08: CXX_EXECUTABLE_LINKER__02-08_Debug CMakeFiles/02-08.dir/02_类模版语法/02-08.cpp.o
+build 02-08: CXX_EXECUTABLE_LINKER__02-08_Debug CMakeFiles/02-08.dir/02_类模版语法/02-08.cpp.o CMakeFiles/02-08.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-08.dir
   POST_BUILD = :
@@ -2434,6 +2958,12 @@ build CMakeFiles/03-10-01.dir/03_STL_初识/03-10_案例—员工分组/03-10-01
   OBJECT_DIR = CMakeFiles/03-10-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-10-01.dir/03_STL_初识/03-10_案例—员工分组
 
+build CMakeFiles/03-10-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-10-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-10-01
+  DEP_FILE = CMakeFiles/03-10-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-10-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-10-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-10-01
@@ -2442,7 +2972,7 @@ build CMakeFiles/03-10-01.dir/03_STL_初识/03-10_案例—员工分组/03-10-01
 #############################################
 # Link the executable 03-10-01
 
-build 03-10-01: CXX_EXECUTABLE_LINKER__03-10-01_Debug CMakeFiles/03-10-01.dir/03_STL_初识/03-10_案例—员工分组/03-10-01.cpp.o
+build 03-10-01: CXX_EXECUTABLE_LINKER__03-10-01_Debug CMakeFiles/03-10-01.dir/03_STL_初识/03-10_案例—员工分组/03-10-01.cpp.o CMakeFiles/03-10-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-10-01.dir
   POST_BUILD = :
@@ -2465,6 +2995,12 @@ build CMakeFiles/03-04-01.dir/03_STL_初识/03-04_案例—评委打分/03-04-01
   OBJECT_DIR = CMakeFiles/03-04-01.dir
   OBJECT_FILE_DIR = CMakeFiles/03-04-01.dir/03_STL_初识/03-04_案例—评委打分
 
+build CMakeFiles/03-04-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-04-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-04-01
+  DEP_FILE = CMakeFiles/03-04-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-04-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-04-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-04-01
@@ -2473,7 +3009,7 @@ build CMakeFiles/03-04-01.dir/03_STL_初识/03-04_案例—评委打分/03-04-01
 #############################################
 # Link the executable 03-04-01
 
-build 03-04-01: CXX_EXECUTABLE_LINKER__03-04-01_Debug CMakeFiles/03-04-01.dir/03_STL_初识/03-04_案例—评委打分/03-04-01.cpp.o
+build 03-04-01: CXX_EXECUTABLE_LINKER__03-04-01_Debug CMakeFiles/03-04-01.dir/03_STL_初识/03-04_案例—评委打分/03-04-01.cpp.o CMakeFiles/03-04-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-04-01.dir
   POST_BUILD = :
@@ -2496,6 +3032,12 @@ build CMakeFiles/01-02.dir/01_函数模版语法/01-02.cpp.o: CXX_COMPILER__01-0
   OBJECT_DIR = CMakeFiles/01-02.dir
   OBJECT_FILE_DIR = CMakeFiles/01-02.dir/01_函数模版语法
 
+build CMakeFiles/01-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__01-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_01-02
+  DEP_FILE = CMakeFiles/01-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01-02
@@ -2504,7 +3046,7 @@ build CMakeFiles/01-02.dir/01_函数模版语法/01-02.cpp.o: CXX_COMPILER__01-0
 #############################################
 # Link the executable 01-02
 
-build 01-02: CXX_EXECUTABLE_LINKER__01-02_Debug CMakeFiles/01-02.dir/01_函数模版语法/01-02.cpp.o
+build 01-02: CXX_EXECUTABLE_LINKER__01-02_Debug CMakeFiles/01-02.dir/01_函数模版语法/01-02.cpp.o CMakeFiles/01-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/01-02.dir
   POST_BUILD = :
@@ -2527,6 +3069,12 @@ build CMakeFiles/05-05-02.dir/05_STL常用算法/05-05_常用算术生成算法/
   OBJECT_DIR = CMakeFiles/05-05-02.dir
   OBJECT_FILE_DIR = CMakeFiles/05-05-02.dir/05_STL常用算法/05-05_常用算术生成算法
 
+build CMakeFiles/05-05-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-05-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-05-02
+  DEP_FILE = CMakeFiles/05-05-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-05-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-05-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-05-02
@@ -2535,7 +3083,7 @@ build CMakeFiles/05-05-02.dir/05_STL常用算法/05-05_常用算术生成算法/
 #############################################
 # Link the executable 05-05-02
 
-build 05-05-02: CXX_EXECUTABLE_LINKER__05-05-02_Debug CMakeFiles/05-05-02.dir/05_STL常用算法/05-05_常用算术生成算法/05-05-02.cpp.o
+build 05-05-02: CXX_EXECUTABLE_LINKER__05-05-02_Debug CMakeFiles/05-05-02.dir/05_STL常用算法/05-05_常用算术生成算法/05-05-02.cpp.o CMakeFiles/05-05-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-05-02.dir
   POST_BUILD = :
@@ -2558,6 +3106,12 @@ build CMakeFiles/03-07-05.dir/03_STL_初识/03-07_list容器/03-07-05.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/03-07-05.dir
   OBJECT_FILE_DIR = CMakeFiles/03-07-05.dir/03_STL_初识/03-07_list容器
 
+build CMakeFiles/03-07-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-07-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-07-05
+  DEP_FILE = CMakeFiles/03-07-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-07-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-07-05
@@ -2566,7 +3120,7 @@ build CMakeFiles/03-07-05.dir/03_STL_初识/03-07_list容器/03-07-05.cpp.o: CXX
 #############################################
 # Link the executable 03-07-05
 
-build 03-07-05: CXX_EXECUTABLE_LINKER__03-07-05_Debug CMakeFiles/03-07-05.dir/03_STL_初识/03-07_list容器/03-07-05.cpp.o
+build 03-07-05: CXX_EXECUTABLE_LINKER__03-07-05_Debug CMakeFiles/03-07-05.dir/03_STL_初识/03-07_list容器/03-07-05.cpp.o CMakeFiles/03-07-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-07-05.dir
   POST_BUILD = :
@@ -2589,6 +3143,12 @@ build CMakeFiles/01-05.dir/01_函数模版语法/01-05.cpp.o: CXX_COMPILER__01-0
   OBJECT_DIR = CMakeFiles/01-05.dir
   OBJECT_FILE_DIR = CMakeFiles/01-05.dir/01_函数模版语法
 
+build CMakeFiles/01-05.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__01-05_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_01-05
+  DEP_FILE = CMakeFiles/01-05.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01-05.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-05.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01-05
@@ -2597,7 +3157,7 @@ build CMakeFiles/01-05.dir/01_函数模版语法/01-05.cpp.o: CXX_COMPILER__01-0
 #############################################
 # Link the executable 01-05
 
-build 01-05: CXX_EXECUTABLE_LINKER__01-05_Debug CMakeFiles/01-05.dir/01_函数模版语法/01-05.cpp.o
+build 01-05: CXX_EXECUTABLE_LINKER__01-05_Debug CMakeFiles/01-05.dir/01_函数模版语法/01-05.cpp.o CMakeFiles/01-05.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/01-05.dir
   POST_BUILD = :
@@ -2620,6 +3180,12 @@ build CMakeFiles/01-04.dir/01_函数模版语法/01-04.cpp.o: CXX_COMPILER__01-0
   OBJECT_DIR = CMakeFiles/01-04.dir
   OBJECT_FILE_DIR = CMakeFiles/01-04.dir/01_函数模版语法
 
+build CMakeFiles/01-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__01-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_01-04
+  DEP_FILE = CMakeFiles/01-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01-04
@@ -2628,7 +3194,7 @@ build CMakeFiles/01-04.dir/01_函数模版语法/01-04.cpp.o: CXX_COMPILER__01-0
 #############################################
 # Link the executable 01-04
 
-build 01-04: CXX_EXECUTABLE_LINKER__01-04_Debug CMakeFiles/01-04.dir/01_函数模版语法/01-04.cpp.o
+build 01-04: CXX_EXECUTABLE_LINKER__01-04_Debug CMakeFiles/01-04.dir/01_函数模版语法/01-04.cpp.o CMakeFiles/01-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/01-04.dir
   POST_BUILD = :
@@ -2651,6 +3217,12 @@ build CMakeFiles/02-01.dir/02_类模版语法/02-01.cpp.o: CXX_COMPILER__02-01_D
   OBJECT_DIR = CMakeFiles/02-01.dir
   OBJECT_FILE_DIR = CMakeFiles/02-01.dir/02_类模版语法
 
+build CMakeFiles/02-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-01
+  DEP_FILE = CMakeFiles/02-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-01
@@ -2659,7 +3231,7 @@ build CMakeFiles/02-01.dir/02_类模版语法/02-01.cpp.o: CXX_COMPILER__02-01_D
 #############################################
 # Link the executable 02-01
 
-build 02-01: CXX_EXECUTABLE_LINKER__02-01_Debug CMakeFiles/02-01.dir/02_类模版语法/02-01.cpp.o
+build 02-01: CXX_EXECUTABLE_LINKER__02-01_Debug CMakeFiles/02-01.dir/02_类模版语法/02-01.cpp.o CMakeFiles/02-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-01.dir
   POST_BUILD = :
@@ -2682,6 +3254,12 @@ build CMakeFiles/02-04.dir/02_类模版语法/02-04.cpp.o: CXX_COMPILER__02-04_D
   OBJECT_DIR = CMakeFiles/02-04.dir
   OBJECT_FILE_DIR = CMakeFiles/02-04.dir/02_类模版语法
 
+build CMakeFiles/02-04.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-04_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-04
+  DEP_FILE = CMakeFiles/02-04.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-04.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-04
@@ -2690,7 +3268,7 @@ build CMakeFiles/02-04.dir/02_类模版语法/02-04.cpp.o: CXX_COMPILER__02-04_D
 #############################################
 # Link the executable 02-04
 
-build 02-04: CXX_EXECUTABLE_LINKER__02-04_Debug CMakeFiles/02-04.dir/02_类模版语法/02-04.cpp.o
+build 02-04: CXX_EXECUTABLE_LINKER__02-04_Debug CMakeFiles/02-04.dir/02_类模版语法/02-04.cpp.o CMakeFiles/02-04.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-04.dir
   POST_BUILD = :
@@ -2713,6 +3291,12 @@ build CMakeFiles/05-02-06.dir/05_STL常用算法/05-02_常用的查找算法/05-
   OBJECT_DIR = CMakeFiles/05-02-06.dir
   OBJECT_FILE_DIR = CMakeFiles/05-02-06.dir/05_STL常用算法/05-02_常用的查找算法
 
+build CMakeFiles/05-02-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-02-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-02-06
+  DEP_FILE = CMakeFiles/05-02-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-02-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-02-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-02-06
@@ -2721,7 +3305,7 @@ build CMakeFiles/05-02-06.dir/05_STL常用算法/05-02_常用的查找算法/05-
 #############################################
 # Link the executable 05-02-06
 
-build 05-02-06: CXX_EXECUTABLE_LINKER__05-02-06_Debug CMakeFiles/05-02-06.dir/05_STL常用算法/05-02_常用的查找算法/05-02-06.cpp.o
+build 05-02-06: CXX_EXECUTABLE_LINKER__05-02-06_Debug CMakeFiles/05-02-06.dir/05_STL常用算法/05-02_常用的查找算法/05-02-06.cpp.o CMakeFiles/05-02-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-02-06.dir
   POST_BUILD = :
@@ -2744,6 +3328,12 @@ build CMakeFiles/01-01.dir/01_函数模版语法/01-01.cpp.o: CXX_COMPILER__01-0
   OBJECT_DIR = CMakeFiles/01-01.dir
   OBJECT_FILE_DIR = CMakeFiles/01-01.dir/01_函数模版语法
 
+build CMakeFiles/01-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__01-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_01-01
+  DEP_FILE = CMakeFiles/01-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01-01
@@ -2752,7 +3342,7 @@ build CMakeFiles/01-01.dir/01_函数模版语法/01-01.cpp.o: CXX_COMPILER__01-0
 #############################################
 # Link the executable 01-01
 
-build 01-01: CXX_EXECUTABLE_LINKER__01-01_Debug CMakeFiles/01-01.dir/01_函数模版语法/01-01.cpp.o
+build 01-01: CXX_EXECUTABLE_LINKER__01-01_Debug CMakeFiles/01-01.dir/01_函数模版语法/01-01.cpp.o CMakeFiles/01-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/01-01.dir
   POST_BUILD = :
@@ -2775,6 +3365,12 @@ build CMakeFiles/03-02-02.dir/03_STL_初识/03-02_vector容器/03-02-02.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-02-02.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-02.dir/03_STL_初识/03-02_vector容器
 
+build CMakeFiles/03-02-02.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-02-02_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-02-02
+  DEP_FILE = CMakeFiles/03-02-02.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-02-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-02.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-02-02
@@ -2783,7 +3379,7 @@ build CMakeFiles/03-02-02.dir/03_STL_初识/03-02_vector容器/03-02-02.cpp.o: C
 #############################################
 # Link the executable 03-02-02
 
-build 03-02-02: CXX_EXECUTABLE_LINKER__03-02-02_Debug CMakeFiles/03-02-02.dir/03_STL_初识/03-02_vector容器/03-02-02.cpp.o
+build 03-02-02: CXX_EXECUTABLE_LINKER__03-02-02_Debug CMakeFiles/03-02-02.dir/03_STL_初识/03-02_vector容器/03-02-02.cpp.o CMakeFiles/03-02-02.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-02-02.dir
   POST_BUILD = :
@@ -2806,6 +3402,12 @@ build CMakeFiles/01-06.dir/01_函数模版语法/01-06.cpp.o: CXX_COMPILER__01-0
   OBJECT_DIR = CMakeFiles/01-06.dir
   OBJECT_FILE_DIR = CMakeFiles/01-06.dir/01_函数模版语法
 
+build CMakeFiles/01-06.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__01-06_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_01-06
+  DEP_FILE = CMakeFiles/01-06.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/01-06.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-06.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01-06
@@ -2814,7 +3416,7 @@ build CMakeFiles/01-06.dir/01_函数模版语法/01-06.cpp.o: CXX_COMPILER__01-0
 #############################################
 # Link the executable 01-06
 
-build 01-06: CXX_EXECUTABLE_LINKER__01-06_Debug CMakeFiles/01-06.dir/01_函数模版语法/01-06.cpp.o
+build 01-06: CXX_EXECUTABLE_LINKER__01-06_Debug CMakeFiles/01-06.dir/01_函数模版语法/01-06.cpp.o CMakeFiles/01-06.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/01-06.dir
   POST_BUILD = :
@@ -2837,6 +3439,12 @@ build CMakeFiles/02-03.dir/02_类模版语法/02-03.cpp.o: CXX_COMPILER__02-03_D
   OBJECT_DIR = CMakeFiles/02-03.dir
   OBJECT_FILE_DIR = CMakeFiles/02-03.dir/02_类模版语法
 
+build CMakeFiles/02-03.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-03_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-03
+  DEP_FILE = CMakeFiles/02-03.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-03.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-03
@@ -2845,7 +3453,7 @@ build CMakeFiles/02-03.dir/02_类模版语法/02-03.cpp.o: CXX_COMPILER__02-03_D
 #############################################
 # Link the executable 02-03
 
-build 02-03: CXX_EXECUTABLE_LINKER__02-03_Debug CMakeFiles/02-03.dir/02_类模版语法/02-03.cpp.o
+build 02-03: CXX_EXECUTABLE_LINKER__02-03_Debug CMakeFiles/02-03.dir/02_类模版语法/02-03.cpp.o CMakeFiles/02-03.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-03.dir
   POST_BUILD = :
@@ -2868,6 +3476,12 @@ build CMakeFiles/05-01-01.dir/05_STL常用算法/05-01_常用遍历算法/05-01-
   OBJECT_DIR = CMakeFiles/05-01-01.dir
   OBJECT_FILE_DIR = CMakeFiles/05-01-01.dir/05_STL常用算法/05-01_常用遍历算法
 
+build CMakeFiles/05-01-01.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__05-01-01_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_05-01-01
+  DEP_FILE = CMakeFiles/05-01-01.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/05-01-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-01-01.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05-01-01
@@ -2876,7 +3490,7 @@ build CMakeFiles/05-01-01.dir/05_STL常用算法/05-01_常用遍历算法/05-01-
 #############################################
 # Link the executable 05-01-01
 
-build 05-01-01: CXX_EXECUTABLE_LINKER__05-01-01_Debug CMakeFiles/05-01-01.dir/05_STL常用算法/05-01_常用遍历算法/05-01-01.cpp.o
+build 05-01-01: CXX_EXECUTABLE_LINKER__05-01-01_Debug CMakeFiles/05-01-01.dir/05_STL常用算法/05-01_常用遍历算法/05-01-01.cpp.o CMakeFiles/05-01-01.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/05-01-01.dir
   POST_BUILD = :
@@ -2899,6 +3513,12 @@ build CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o: CXX_COMPILER__02-07_D
   OBJECT_DIR = CMakeFiles/02-07.dir
   OBJECT_FILE_DIR = CMakeFiles/02-07.dir/02_类模版语法
 
+build CMakeFiles/02-07.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__02-07_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_02-07
+  DEP_FILE = CMakeFiles/02-07.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/02-07.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-07.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02-07
@@ -2907,7 +3527,7 @@ build CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o: CXX_COMPILER__02-07_D
 #############################################
 # Link the executable 02-07
 
-build 02-07: CXX_EXECUTABLE_LINKER__02-07_Debug CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o
+build 02-07: CXX_EXECUTABLE_LINKER__02-07_Debug CMakeFiles/02-07.dir/02_类模版语法/02-07.cpp.o CMakeFiles/02-07.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/02-07.dir
   POST_BUILD = :
@@ -2930,6 +3550,12 @@ build CMakeFiles/03-01-07.dir/03_STL_初识/03-01_string容器/03-01-07.cpp.o: C
   OBJECT_DIR = CMakeFiles/03-01-07.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-07.dir/03_STL_初识/03-01_string容器
 
+build CMakeFiles/03-01-07.dir/06_案例—speechManager/speechManager.cpp.o: CXX_COMPILER__03-01-07_Debug /Users/jarsonsmac/CLionProjects/c++提高编程（STL$ 标准库）/06$ 案例—speechManager/speechManager.cpp || cmake_object_order_depends_target_03-01-07
+  DEP_FILE = CMakeFiles/03-01-07.dir/06_案例—speechManager/speechManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/03-01-07.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-01-07.dir/06_案例—speechManager
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03-01-07
@@ -2938,7 +3564,7 @@ build CMakeFiles/03-01-07.dir/03_STL_初识/03-01_string容器/03-01-07.cpp.o: C
 #############################################
 # Link the executable 03-01-07
 
-build 03-01-07: CXX_EXECUTABLE_LINKER__03-01-07_Debug CMakeFiles/03-01-07.dir/03_STL_初识/03-01_string容器/03-01-07.cpp.o
+build 03-01-07: CXX_EXECUTABLE_LINKER__03-01-07_Debug CMakeFiles/03-01-07.dir/03_STL_初识/03-01_string容器/03-01-07.cpp.o CMakeFiles/03-01-07.dir/06_案例—speechManager/speechManager.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2
   OBJECT_DIR = CMakeFiles/03-01-07.dir
   POST_BUILD = :
@@ -2957,7 +3583,7 @@ build 03-01-07: CXX_EXECUTABLE_LINKER__03-01-07_Debug CMakeFiles/03-01-07.dir/03
 #############################################
 # Folder: /Users/jarsonsmac/CLionProjects/c++提高编程（STL 标准库）/cmake-build-debug
 
-build all: phony main 05-05-01 05-04-04 05-04-02 05-04-01 05-03-04 05-03-01 05-02-04 05-02-03 05-02-01 04-03-03 05-03-02 04-03-02 04-02-02 04-02-01 04-01-01 03-09-05 03-09-04 05-04-03 03-09-03 03-08-08 03-08-07 03-08-06 03-08-04 03-08-03 05-06-02 03-08-01 05-02-02 03-07-06 03-08-05 03-02-05 03-07-01 03-06-01 03-07-02 03-02-04 03-03 03-03-06 01-03 03-03-03 CMakeCXXCompilerId 03-03-01 03-09-02 02-05 03-01-06 03-05-01 05-02-05 03-03-02 05-03-03 05-01-02 03-09-01 03-02-07 Person 03-07-03 03-02-06 03-07-04 02-09 03-01-02 03-03-05 03-07-07 03-01-03 03-02-03 03-02-01 03-01-04 03-01 03-08-02 03-01-05 04-03-01 02-02 05-06-01 03-01-01 03-02 03-01-08 05-06-03 02-06 03-03-04 02-08 03-10-01 03-04-01 01-02 05-05-02 03-07-05 01-05 01-04 02-01 02-04 05-02-06 01-01 03-02-02 01-06 02-03 05-01-01 02-07 03-01-07
+build all: phony main speech 05-05-01 05-04-04 05-04-02 05-04-01 05-03-04 05-03-01 05-02-04 05-02-03 05-02-01 04-03-03 05-03-02 04-03-02 04-02-02 04-02-01 04-01-01 03-09-05 03-09-04 05-04-03 03-09-03 03-08-08 03-08-07 03-08-06 03-08-04 03-08-03 05-06-02 03-08-01 05-02-02 03-07-06 03-08-05 03-02-05 03-07-01 speechManager 03-06-01 03-07-02 03-02-04 03-03 03-03-06 01-03 03-03-03 CMakeCXXCompilerId 03-03-01 03-09-02 02-05 03-01-06 03-05-01 05-02-05 03-03-02 05-03-03 05-01-02 03-09-01 03-02-07 Person 03-07-03 03-02-06 03-07-04 02-09 03-01-02 03-03-05 03-07-07 03-01-03 03-02-03 03-02-01 03-01-04 03-01 03-08-02 03-01-05 04-03-01 02-02 05-06-01 03-01-01 03-02 03-01-08 05-06-03 02-06 03-03-04 02-08 03-10-01 03-04-01 01-02 05-05-02 03-07-05 01-05 01-04 02-01 02-04 05-02-06 01-01 03-02-02 01-06 02-03 05-01-01 02-07 03-01-07
 
 # =============================================================================
 # Built-in targets
